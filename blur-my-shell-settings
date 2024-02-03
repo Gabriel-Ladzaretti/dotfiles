@@ -1,0 +1,33 @@
+[/]
+brightness=0.59999999999999998
+color=(0.0, 0.0, 0.0, 0.0)
+color-and-noise=true
+noise-amount=0.26000000000000001
+noise-lightness=0.14999999999999999
+sigma=30
+
+[appfolder]
+blur=true
+customize=false
+
+[dash-to-dock]
+override-background=true
+
+[overview]
+blur=true
+customize=false
+style-components=1
+
+[panel]
+blur=true
+brightness=0.0
+color=(0.0, 0.0, 0.0, 0.40999999642372131)
+customize=true
+noise-amount=0.0
+noise-lightness=0.0
+override-background=true
+override-background-dynamically=false
+sigma=200
+static-blur=true
+style-panel=1
+unblur-in-overview=false
