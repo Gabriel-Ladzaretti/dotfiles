@@ -1,6 +1,6 @@
 [character]
 success_symbol = "[❯](bold green)"
-error_symbol = "[✖](bold red)"
+error_symbol = "[✘](bold red)"
 vimcmd_symbol = "[❮](bold green)"
 
 # Here is how you can shorten some long paths by text replacement
