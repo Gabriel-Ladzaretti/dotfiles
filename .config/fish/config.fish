@@ -32,5 +32,5 @@ set -g fish_color_valid_path --underline
 
 starship init fish | source
 
-alias config='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias xclip='xclip -selection c'
