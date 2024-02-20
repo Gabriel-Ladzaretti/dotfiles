@@ -5,11 +5,13 @@ theme-variant='dark'
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(39,39,39)'
 bold-is-bright=true
+cell-height-scale=1.2000000000000002
+cell-width-scale=1.05
 default-size-rows=28
 font='Hack Nerd Font 15'
 foreground-color='rgb(255,255,255)'
 highlight-colors-set=false
-palette=['rgb(46,52,54)', 'rgb(255,159,159)', 'rgb(204,255,156)', 'rgb(255,195,128)', 'rgb(102,155,188)', 'rgb(116,115,158)', 'rgb(0,218,255)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(255,153,153)', 'rgb(138,226,52)', 'rgb(255,216,123)', 'rgb(66,181,204)', 'rgb(169,167,213)', 'rgb(104,237,203)', 'rgb(238,238,236)']
+palette=['rgb(46,52,54)', 'rgb(255,159,159)', 'rgb(204,255,156)', 'rgb(255,195,128)', 'rgb(102,155,188)', 'rgb(125,135,242)', 'rgb(0,218,255)', 'rgb(211,215,207)', 'rgb(85,87,83)', 'rgb(255,153,153)', 'rgb(138,226,52)', 'rgb(255,216,123)', 'rgb(91,209,232)', 'rgb(186,184,255)', 'rgb(104,237,203)', 'rgb(238,238,236)']
 use-system-font=false
 use-theme-colors=false
 visible-name='gbi'
