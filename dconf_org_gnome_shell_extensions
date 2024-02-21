@@ -10,8 +10,14 @@ sigma=30
 blur=true
 customize=false
 
+[blur-my-shell/applications]
+blur=false
+
 [blur-my-shell/dash-to-dock]
 override-background=true
+
+[blur-my-shell/dash-to-panel]
+blur-original-panel=false
 
 [blur-my-shell/overview]
 blur=true
@@ -31,6 +37,12 @@ sigma=200
 static-blur=true
 style-panel=1
 unblur-in-overview=false
+
+[blur-my-shell/screenshot]
+blur=false
+
+[blur-my-shell/window-list]
+blur=false
 
 [caffeine]
 countdown-timer=0
@@ -100,4 +112,5 @@ show-processor=true
 show-storage=false
 show-system=false
 show-voltage=false
+update-time=1
 use-higher-precision=false
