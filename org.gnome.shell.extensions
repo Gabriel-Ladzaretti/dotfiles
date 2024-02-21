@@ -58,9 +58,10 @@ indicator-position-max=5
 show-indicator='always'
 
 [clipboard-indicator]
+cache-size=1023
 disable-down-arrow=true
 display-mode=0
-
+topbar-preview-size=7
 
 [just-perfection]
 accessibility-menu=true
@@ -70,7 +71,7 @@ activities-button-label=true
 alt-tab-icon-size=0
 alt-tab-small-icon-size=0
 alt-tab-window-preview-size=0
-animation=3
+animation=4
 app-menu=true
 app-menu-icon=true
 background-menu=true
