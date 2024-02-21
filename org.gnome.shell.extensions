@@ -7,7 +7,7 @@ noise-lightness=0.14999999999999999
 sigma=30
 
 [blur-my-shell/appfolder]
-blur=true
+blur=false
 customize=false
 style-dialogs=3
 
@@ -22,10 +22,10 @@ override-background=false
 blur-original-panel=false
 
 [blur-my-shell/lockscreen]
-blur=true
+blur=false
 
 [blur-my-shell/overview]
-blur=true
+blur=false
 customize=false
 style-components=1
 
@@ -54,17 +54,22 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
 
+[clipboard-indicator]
+disable-down-arrow=true
+display-mode=0
+
 [just-perfection]
-activities-button=false
+accessibility-menu=true
+activities-button=true
 activities-button-icon-monochrome=true
 activities-button-label=true
 alt-tab-icon-size=0
 alt-tab-small-icon-size=0
 alt-tab-window-preview-size=0
-animation=4
+animation=1
 app-menu=true
 app-menu-icon=true
 background-menu=true
@@ -73,7 +78,7 @@ controls-manager-spacing-size=0
 dash=true
 dash-icon-size=0
 dash-separator=true
-double-super-to-appgrid=false
+double-super-to-appgrid=true
 keyboard-layout=true
 osd=true
 overlay-key=true
@@ -89,10 +94,10 @@ ripple-box=true
 screen-sharing-indicator=true
 search=true
 show-apps-button=true
-startup-status=0
+startup-status=1
 switcher-popup-delay=true
 theme=false
-window-demands-attention-focus=true
+window-demands-attention-focus=false
 window-picker-icon=true
 window-preview-caption=true
 window-preview-close-button=true
