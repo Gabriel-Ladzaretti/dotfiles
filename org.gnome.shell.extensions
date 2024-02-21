@@ -2,7 +2,7 @@
 brightness=0.59999999999999998
 color=(0.0, 0.0, 0.0, 0.0)
 color-and-noise=true
-noise-amount=0.26000000000000001
+noise-amount=0.25
 noise-lightness=0.14999999999999999
 sigma=30
 
@@ -38,7 +38,7 @@ noise-amount=0.0
 noise-lightness=0.0
 override-background=true
 override-background-dynamically=false
-sigma=0
+sigma=200
 static-blur=true
 style-panel=2
 unblur-in-overview=false
@@ -54,8 +54,18 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
+
+[clipboard-indicator]
+cache-size=1023
+display-mode=0
+topbar-preview-size=7
+
+[ding]
+check-x11wayland=true
+show-trash=false
+show-volumes=false
 
 [just-perfection]
 activities-button=false
@@ -102,9 +112,15 @@ workspace-popup=true
 workspace-switcher-should-show=false
 workspaces-in-app-grid=true
 
+[net/gfxmonk/impatience]
+speed-factor=0.74999999999999978
+
 [unblank]
 power=false
 time=1800
+
+[user-theme]
+name=''
 
 [vitals]
 fixed-widths=true
