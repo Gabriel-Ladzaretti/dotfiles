@@ -22,10 +22,10 @@ override-background=false
 blur-original-panel=false
 
 [blur-my-shell/lockscreen]
-blur=false
+blur=true
 
 [blur-my-shell/overview]
-blur=false
+blur=true
 customize=false
 style-components=1
 
