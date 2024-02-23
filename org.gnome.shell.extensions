@@ -1,54 +1,14 @@
-[blur-my-shell]
-brightness=0.59999999999999998
-color=(0.0, 0.0, 0.0, 0.0)
-color-and-noise=true
-noise-amount=0.25
-noise-lightness=0.14999999999999999
-sigma=30
-
 [blur-my-shell/appfolder]
 blur=false
-customize=false
-style-dialogs=3
 
 [blur-my-shell/applications]
-blur=false
 customize=false
-opacity=25
-whitelist=@as []
-
-[blur-my-shell/dash-to-dock]
-override-background=false
-
-[blur-my-shell/dash-to-panel]
-blur-original-panel=false
 
 [blur-my-shell/lockscreen]
 blur=false
-customize=false
-
-[blur-my-shell/overview]
-blur=true
-brightness=0.59999999999999998
-customize=true
-noise-amount=0.0
-noise-lightness=0.0
-sigma=30
-style-components=1
 
 [blur-my-shell/panel]
-blur=true
-brightness=0.0
-color=(0.70196074247360229, 0.61176472902297974, 0.81568628549575806, 0.35333332419395447)
-customize=true
-noise-amount=0.0
-noise-lightness=0.0
-override-background=true
-override-background-dynamically=false
-sigma=200
-static-blur=true
-style-panel=2
-unblur-in-overview=false
+blur=false
 
 [blur-my-shell/screenshot]
 blur=false
@@ -122,7 +82,7 @@ power=false
 time=1800
 
 [user-theme]
-name=''
+name='purple-panel'
 
 [vitals]
 fixed-widths=true
