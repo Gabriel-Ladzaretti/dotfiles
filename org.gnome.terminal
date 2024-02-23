@@ -4,13 +4,14 @@ theme-variant='dark'
 
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(39,39,39)'
-background-transparency-percent=4
+background-transparency-percent=6
 bold-color="'#ABB2BF'"
 bold-is-bright=true
 cell-height-scale=1.2000000000000002
 cell-width-scale=1.05
 cursor-blink-mode='on'
 cursor-shape='block'
+default-size-columns=80
 default-size-rows=28
 font='Hack Nerd Font 15'
 foreground-color='rgb(255,255,255)'

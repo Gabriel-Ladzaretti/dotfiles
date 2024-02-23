@@ -14,6 +14,8 @@ style-dialogs=3
 [blur-my-shell/applications]
 blur=false
 customize=false
+opacity=25
+whitelist=@as []
 
 [blur-my-shell/dash-to-dock]
 override-background=false
@@ -22,17 +24,22 @@ override-background=false
 blur-original-panel=false
 
 [blur-my-shell/lockscreen]
-blur=true
+blur=false
+customize=false
 
 [blur-my-shell/overview]
 blur=true
-customize=false
+brightness=0.59999999999999998
+customize=true
+noise-amount=0.0
+noise-lightness=0.0
+sigma=30
 style-components=1
 
 [blur-my-shell/panel]
 blur=true
 brightness=0.0
-color=(0.0, 0.0, 0.0, 1.0)
+color=(0.70196074247360229, 0.61176472902297974, 0.81568628549575806, 0.35333332419395447)
 customize=true
 noise-amount=0.0
 noise-lightness=0.0
@@ -54,7 +61,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
 
 [clipboard-indicator]
