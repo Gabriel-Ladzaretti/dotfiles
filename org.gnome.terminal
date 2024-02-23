@@ -4,7 +4,7 @@ theme-variant='dark'
 
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(39,39,39)'
-background-transparency-percent=3
+background-transparency-percent=4
 bold-color="'#ABB2BF'"
 bold-is-bright=true
 cell-height-scale=1.2000000000000002
