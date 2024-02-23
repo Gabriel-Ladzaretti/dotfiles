@@ -1,0 +1,2 @@
+dconf dump /org/gnome/terminal/ > org.gnome.terminal
+dconf dump /org/gnome/shell/extensions/ > org.gnome.shell.extensions
