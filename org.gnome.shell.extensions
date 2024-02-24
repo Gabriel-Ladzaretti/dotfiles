@@ -1,27 +1,9 @@
-[blur-my-shell/appfolder]
-blur=false
-
-[blur-my-shell/applications]
-customize=false
-
-[blur-my-shell/lockscreen]
-blur=false
-
-[blur-my-shell/panel]
-blur=false
-
-[blur-my-shell/screenshot]
-blur=false
-
-[blur-my-shell/window-list]
-blur=false
-
 [caffeine]
 countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=5
+indicator-position-max=4
 show-indicator='always'
 
 [clipboard-indicator]
@@ -82,7 +64,7 @@ power=false
 time=1800
 
 [user-theme]
-name='purple-panel'
+name='gnome-purple-panel'
 
 [vitals]
 fixed-widths=true
