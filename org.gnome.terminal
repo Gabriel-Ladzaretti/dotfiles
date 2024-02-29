@@ -2,6 +2,30 @@
 new-terminal-mode='tab'
 theme-variant='dark'
 
+[legacy/profiles:]
+default='cfe6857c-d7b4-44f4-9352-eab8a05fe0c3'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '3c9afb65-090a-4f2d-9673-3a41736cd9f4', 'cfe6857c-d7b4-44f4-9352-eab8a05fe0c3']
+
+[legacy/profiles:/:3c9afb65-090a-4f2d-9673-3a41736cd9f4]
+background-color='rgb(39,39,39)'
+background-transparency-percent=6
+bold-color="'#ABB2BF'"
+bold-is-bright=true
+cell-height-scale=1.2000000000000002
+cell-width-scale=1.05
+cursor-blink-mode='on'
+cursor-shape='block'
+default-size-columns=80
+default-size-rows=28
+font='Hack Nerd Font 15'
+foreground-color='rgb(255,255,255)'
+highlight-colors-set=false
+palette=['rgb(72,71,87)', 'rgb(242,140,167)', 'rgb(166,227,163)', 'rgb(248,227,175)', 'rgb(136,180,249)', 'rgb(245,193,231)', 'rgb(149,226,216)', 'rgb(185,194,223)', 'rgb(86,91,112)', 'rgb(242,140,165)', 'rgb(166,227,163)', 'rgb(248,227,175)', 'rgb(136,180,249)', 'rgb(245,193,231)', 'rgb(149,226,216)', 'rgb(167,174,201)']
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+visible-name='gbi (pastel)'
+
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(39,39,39)'
 background-transparency-percent=6
@@ -21,3 +45,24 @@ use-system-font=false
 use-theme-colors=false
 use-transparent-background=true
 visible-name='gbi'
+
+[legacy/profiles:/:cfe6857c-d7b4-44f4-9352-eab8a05fe0c3]
+background-color='rgb(39,39,39)'
+background-transparency-percent=6
+bold-color="'#ABB2BF'"
+bold-is-bright=true
+cell-height-scale=1.2000000000000002
+cell-width-scale=1.05
+cursor-blink-mode='on'
+cursor-shape='block'
+default-size-columns=80
+default-size-rows=28
+font='Hack Nerd Font 15'
+foreground-color='rgb(255,255,255)'
+highlight-colors-set=false
+palette=['rgb(103,110,149)', 'rgb(242,140,167)', 'rgb(169,199,125)', 'rgb(255,203,107)', 'rgb(130,170,255)', 'rgb(199,146,234)', 'rgb(137,221,255)', 'rgb(255,255,255)', 'rgb(103,110,149)', 'rgb(242,140,167)', 'rgb(195,232,141)', 'rgb(255,203,107)', 'rgb(130,170,255)', 'rgb(199,146,234)', 'rgb(137,221,255)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+use-system-font=false
+use-theme-colors=false
+use-transparent-background=true
+visible-name='gbi (lighter red)'

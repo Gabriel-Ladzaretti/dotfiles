@@ -3,7 +3,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
 
 [clipboard-indicator]
@@ -20,7 +20,7 @@ activities-button-label=true
 alt-tab-icon-size=0
 alt-tab-small-icon-size=0
 alt-tab-window-preview-size=0
-animation=3
+animation=4
 app-menu=true
 app-menu-icon=true
 background-menu=true
@@ -67,12 +67,13 @@ time=1800
 name='gnome-purple-panel'
 
 [vitals]
-fixed-widths=true
+fixed-widths=false
 hide-icons=false
-hide-zeros=true
+hide-zeros=false
 hot-sensors=['_memory_usage_', '_processor_usage_', '_temperature_processor_0_']
 include-static-info=false
 memory-measurement=0
+menu-centered=false
 show-fan=false
 show-network=false
 show-processor=true
