@@ -35,3 +35,9 @@ starship init fish | source
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias xclip='xclip -selection c'
 alias tmux='tmux -u'
+
+if status is-interactive
+and not set -q TMUX
+    exec tmux new-session -A -s Home
+end
+
