@@ -3,7 +3,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=5
+indicator-position-max=3
 show-indicator='always'
 
 [clipboard-indicator]
