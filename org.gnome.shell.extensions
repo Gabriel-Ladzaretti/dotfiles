@@ -3,7 +3,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=3
+indicator-position-max=4
 show-indicator='always'
 
 [clipboard-indicator]
@@ -58,10 +58,6 @@ workspace-background-corner-size=0
 workspace-popup=true
 workspace-switcher-should-show=false
 workspaces-in-app-grid=true
-
-[unblank]
-power=false
-time=1800
 
 [user-theme]
 name='gnome-purple-panel'
