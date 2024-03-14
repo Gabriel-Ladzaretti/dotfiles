@@ -40,5 +40,3 @@ export NVM_DIR="$HOME/.nvm"
 export MOZ_ENABLE_WAYLAND=1
 
 eval "$(starship init bash)"
-
-fish

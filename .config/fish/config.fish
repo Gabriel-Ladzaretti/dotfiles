@@ -36,6 +36,8 @@ alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias xclip='xclip -selection c'
 alias tmux='tmux -u'
 alias tmuxx='tmux new-session -A -s'
+alias g='git'
+
 
 # if status is-interactive
 # and not set -q TMUX
