@@ -12,7 +12,7 @@ program = "/usr/bin/fish"
 
 [window]
 decorations = "Full"
-opacity = 0.97
+opacity = 0.96
 
 [window.padding]
 x = 1
