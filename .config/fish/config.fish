@@ -40,8 +40,8 @@ alias tmuxx='tmux new-session -A -s'
 alias g='git'
 
 
-if status is-interactive
-and not set -q TMUX
-    exec tmux new-session -A -s Home
-end
+# if status is-interactive
+# and not set -q TMUX
+#     exec tmux new-session -A -s Home
+# end
 
