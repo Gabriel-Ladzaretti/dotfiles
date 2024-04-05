@@ -1,0 +1,226 @@
+{
+  "debug.inlineValues": "on",
+  "editor.fontVariations": false,
+  "editor.fontWeight": "500",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 2,
+  "editor.fontFamily": "'Hack Nerd Font'",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.rulers": [
+    80,
+    110
+  ],
+  "explorer.autoReveal": true,
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": 500,
+  "terminal.integrated.fontWeightBold": 600,
+  "terminal.integrated.fontFamily": "'Hack Nerd Font'",
+  "telemetry.telemetryLevel": "off",
+  "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
+  "[go]": {
+    "editor.semanticHighlighting.enabled": true
+  },
+  "debug.console.fontSize": 14,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "comment.block",
+          "comment.block.documentation",
+          "comment.line",
+          "constant",
+          "constant.character",
+          "constant.character.escape",
+          "constant.numeric",
+          "constant.numeric.integer",
+          "constant.numeric.float",
+          "constant.numeric.hex",
+          "constant.numeric.octal",
+          "constant.other",
+          "constant.regexp",
+          "constant.rgb-value",
+          "emphasis",
+          "entity",
+          "entity.name",
+          "entity.name.class",
+          "entity.name.function",
+          "entity.name.method",
+          "entity.name.section",
+          "entity.name.selector",
+          "entity.name.tag",
+          "entity.name.type",
+          "entity.other",
+          "entity.other.attribute-name",
+          "entity.other.inherited-class",
+          "invalid",
+          "invalid.deprecated",
+          "invalid.illegal",
+          "keyword",
+          "keyword.control",
+          "keyword.operator",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator.arithmetic",
+          "keyword.operator.logical",
+          "keyword.other",
+          "markup",
+          "markup.bold",
+          "markup.changed",
+          "markup.deleted",
+          "markup.heading",
+          "markup.inline.raw",
+          "markup.inserted",
+          "markup.italic",
+          "markup.list",
+          "markup.list.numbered",
+          "markup.list.unnumbered",
+          "markup.other",
+          "markup.quote",
+          "markup.raw",
+          "markup.underline",
+          "markup.underline.link",
+          "meta",
+          "meta.block",
+          "meta.cast",
+          "meta.class",
+          "meta.function",
+          "meta.function-call",
+          "meta.preprocessor",
+          "meta.return-type",
+          "meta.selector",
+          "meta.tag",
+          "meta.type.annotation",
+          "meta.type",
+          "punctuation.definition.string.begin",
+          "punctuation.definition.string.end",
+          "punctuation.separator",
+          "punctuation.separator.continuation",
+          "punctuation.terminator",
+          "storage",
+          "storage.modifier",
+          "storage.type",
+          "string",
+          "string.interpolated",
+          "string.other",
+          "string.quoted",
+          "string.quoted.double",
+          "string.quoted.other",
+          "string.quoted.single",
+          "string.quoted.triple",
+          "string.regexp",
+          "string.unquoted",
+          "strong",
+          "support",
+          "support.class",
+          "support.constant",
+          "support.function",
+          "support.other",
+          "support.type",
+          "support.type.property-name",
+          "support.variable",
+          "variable",
+          "variable.language",
+          "variable.name",
+          "variable.other",
+          "variable.other.readwrite",
+          "variable.parameter"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": [
+          "comment",
+          "comment.line.double-slash",
+        ],
+        "settings": {
+          // "foreground": "#737AA2", // +10
+          "foreground": "#6E759D", // +5
+          // "foreground": "#697098",
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#BFC7D5",
+          // "foreground": "#BFC7D5",
+          // "foreground": "#acb0c4",
+        }
+      },
+      {
+        "scope": "variable.other.go",
+        "settings": {
+          "foreground": "#BFC7D5",
+          // "foreground": "#BFC7D5",
+          // "foreground": "#acb0c4",
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#bfc7d5",
+        }
+      },
+      {
+        "scope": "entity.name.type.go",
+        "settings": {
+          // "foreground": "#ffeeca",
+          // "foreground": "#eed38f",
+          "foreground": "#ead3a8",
+          // "foreground": "#F9E2AF",
+          // "foreground": "#fae5bd",
+        }
+      },
+    ]
+  },
+  "workbench.colorCustomizations": {
+    "gitDecoration.ignoredResourceForeground": "#949494aa",
+    "sideBar.foreground": "#b8b8b8",
+    // "sideBar.foreground": "#9A9A9A"
+  },
+  "window.zoomLevel": 2,
+  "git.allowForcePush": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "errorLens.fontFamily": "'Hack Nerd Font'",
+  "errorLens.gutterIconsFollowCursorOverride": false,
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced"
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "extensions.autoUpdate": false,
+  "remote.SSH.configFile": "/home/gbi/.ssh/config",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  },
+  "window.customTitleBarVisibility": "auto",
+  "update.mode": "manual",
+  /*"todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#ffffff",
+      "backgroundColor": "#ffcb6b",
+      "isWholeLine": false,
+    },
+    {
+      "text": "FIXME:",
+      "color": "#ffffff",
+      "backgroundColor": "#82aaff",
+      "isWholeLine": false,
+    },
+  ],*/
+}
