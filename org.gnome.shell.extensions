@@ -3,7 +3,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
 
 [clipboard-indicator]
@@ -11,6 +11,20 @@ cache-size=1023
 disable-down-arrow=true
 display-mode=0
 topbar-preview-size=7
+
+[gtile]
+auto-close=true
+follow-cursor=false
+global-presets=false
+grid-sizes='9x2,8x6,6x4,4x4'
+insets-primary-bottom=0
+insets-primary-left=0
+insets-primary-right=0
+insets-primary-top=0
+moveresize-enabled=false
+show-icon=false
+theme='Minimal Dark'
+window-spacing=0
 
 [just-perfection]
 accessibility-menu=true
