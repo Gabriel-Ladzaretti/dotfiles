@@ -8,10 +8,16 @@ freeze-extensions:
 install-extensions:
 	cat ${vscode_extensions_path} | xargs -L 1 code --install-extension
 
-.PHONY: dconf-dump
-dconf-dump:
+.PHONY: dconf-dump-terminal
+dconf-dump-terminal:
 	dconf dump /org/gnome/terminal/ > org.gnome.terminal
+
+.PHONY: dconf-dump-extensions
+dconf-dump-extensions:
 	dconf dump /org/gnome/shell/extensions/ > org.gnome.shell.extensions
+
+.PHONY: dconf-dump
+dconf-dump: dconf-dump-terminal dconf-dump-extensions
 
 .PHONY: dconf-load-terminal
 dconf-load-terminal:
