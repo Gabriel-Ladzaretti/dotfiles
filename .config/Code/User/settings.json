@@ -24,6 +24,53 @@
   },
   "debug.console.fontSize": 14,
   "editor.tokenColorCustomizations": {
+    "[Palenight (Mild Contrast)]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "comment.line.double-slash",
+          ],
+          "settings": {
+            // "foreground": "#737AA2", // +10
+            "foreground": "#6E759D", // +5
+            // "foreground": "#697098",
+          }
+        },
+        {
+          "scope": "variable",
+          "settings": {
+            "foreground": "#BFC7D5",
+            // "foreground": "#BFC7D5",
+            // "foreground": "#acb0c4",
+          }
+        },
+        {
+          "scope": "variable.other.go",
+          "settings": {
+            "foreground": "#BFC7D5",
+            // "foreground": "#BFC7D5",
+            // "foreground": "#acb0c4",
+          }
+        },
+        {
+          "scope": "variable.parameter",
+          "settings": {
+            "foreground": "#bfc7d5",
+          }
+        },
+        {
+          "scope": "entity.name.type.go",
+          "settings": {
+            // "foreground": "#ffeeca",
+            // "foreground": "#eed38f",
+            "foreground": "#ead3a8",
+            // "foreground": "#F9E2AF",
+            // "foreground": "#fae5bd",
+          }
+        },
+      ]
+    },
     "textMateRules": [
       {
         "scope": [
@@ -132,49 +179,6 @@
           "fontStyle": ""
         }
       },
-      // {
-      //   "scope": [
-      //     "comment",
-      //     "comment.line.double-slash",
-      //   ],
-      //   "settings": {
-      //     // "foreground": "#737AA2", // +10
-      //     "foreground": "#6E759D", // +5
-      //     // "foreground": "#697098",
-      //   }
-      // },
-      // {
-      //   "scope": "variable",
-      //   "settings": {
-      //     "foreground": "#BFC7D5",
-      //     // "foreground": "#BFC7D5",
-      //     // "foreground": "#acb0c4",
-      //   }
-      // },
-      // {
-      //   "scope": "variable.other.go",
-      //   "settings": {
-      //     "foreground": "#BFC7D5",
-      //     // "foreground": "#BFC7D5",
-      //     // "foreground": "#acb0c4",
-      //   }
-      // },
-      // {
-      //   "scope": "variable.parameter",
-      //   "settings": {
-      //     "foreground": "#bfc7d5",
-      //   }
-      // },
-      // {
-      //   "scope": "entity.name.type.go",
-      //   "settings": {
-      //     // "foreground": "#ffeeca",
-      //     // "foreground": "#eed38f",
-      //     "foreground": "#ead3a8",
-      //     // "foreground": "#F9E2AF",
-      //     // "foreground": "#fae5bd",
-      //   }
-      // },
     ]
   },
   "workbench.colorCustomizations": {
@@ -195,7 +199,7 @@
   "files.autoSave": "onFocusChange",
   "editor.semanticHighlighting.enabled": false,
   "editor.semanticTokenColorCustomizations": {
-    "enabled": true
+    "enabled": false
   },
   "gopls": {
     "ui.semanticTokens": true
@@ -208,9 +212,9 @@
   },
   "window.customTitleBarVisibility": "auto",
   "update.mode": "manual",
-  "workbench.colorTheme": "Tokyo Night",
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Palenight (Mild Contrast)",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
