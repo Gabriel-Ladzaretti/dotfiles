@@ -1,10 +1,10 @@
 vscode_extensions_path = .vscode.extensions
 
-.PHONY: freeze-extensions
+.PHONY: freeze-vscode-extensions
 freeze-vscode-extensions:
 	code --list-extensions > ${vscode_extensions_path}
 
-.PHONY: install-extension
+.PHONY: install-vscode-extensions
 install-vscode-extensions:
 	cat ${vscode_extensions_path} | xargs -L 1 code --install-extension
 

@@ -214,7 +214,7 @@
   "update.mode": "manual",
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "workbench.colorTheme": "Shades of Purple (Super Dark)",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
