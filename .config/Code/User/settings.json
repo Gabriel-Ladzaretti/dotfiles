@@ -213,7 +213,7 @@
   "window.customTitleBarVisibility": "auto",
   "update.mode": "manual",
   "terminal.integrated.defaultProfile.linux": "fish",
-  "workbench.colorTheme": "Palenight (Mild Contrast)",
+  "workbench.colorTheme": "poimandres-noitalics",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
