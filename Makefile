@@ -12,7 +12,7 @@ install-vscode-extensions:
 dconf-dump-terminal:
 	dconf dump /org/gnome/terminal/ > org.gnome.terminal
 
-.PHONY: dconf-dump-extensions
+.PHONY: dconf-dump-gnome-extensions
 dconf-dump-gnome-extensions:
 	dconf dump /org/gnome/shell/extensions/ > org.gnome.shell.extensions
 

@@ -5,6 +5,7 @@ indicator-position=0
 indicator-position-index=0
 indicator-position-max=5
 show-indicator='always'
+toggle-state=false
 
 [clipboard-indicator]
 cache-size=1023
@@ -72,6 +73,39 @@ workspace-background-corner-size=0
 workspace-popup=true
 workspace-switcher-should-show=false
 workspaces-in-app-grid=true
+
+[tactile]
+border-size=3
+col-0=1
+col-1=3
+col-2=1
+col-3=0
+gap-size=0
+layout-2-col-0=1
+layout-2-col-1=1
+layout-2-col-2=1
+layout-2-col-3=0
+layout-2-row-1=0
+layout-2-row-2=0
+layout-3-col-0=1
+layout-3-col-1=1
+layout-3-col-2=1
+layout-3-col-3=1
+layout-3-row-1=0
+layout-3-row-2=0
+layout-4-col-0=4
+layout-4-col-1=1
+layout-4-col-2=4
+layout-4-col-3=0
+layout-4-row-1=0
+layout-4-row-2=0
+maximize=true
+monitor-0-layout=1
+row-1=0
+row-2=0
+show-settings=['<Shift><Super>Return']
+show-tiles=['<Super>Return']
+text-size=72
 
 [user-theme]
 name='gnome-purple-panel'
