@@ -3,7 +3,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=5
+indicator-position-max=4
 show-indicator='always'
 
 [clipboard-indicator]
@@ -99,7 +99,7 @@ layout-4-col-3=0
 layout-4-row-1=0
 layout-4-row-2=0
 maximize=true
-monitor-0-layout=1
+monitor-0-layout=4
 row-1=0
 row-2=0
 show-settings=['<Shift><Super>Return']

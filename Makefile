@@ -23,7 +23,7 @@ dconf-dump: dconf-dump-terminal dconf-dump-extensions
 dconf-load-terminal:
 	dconf load /org/gnome/terminal/ < org.gnome.terminal
 
-.PHONY: dconf-load-extensions
+.PHONY: dconf-load-gnome-extensions
 dconf-load-gnome-extensions:
 	dconf load /org/gnome/shell/extensions/ < org.gnome.shell.extensions
 
