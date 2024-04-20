@@ -213,9 +213,9 @@
   "window.customTitleBarVisibility": "auto",
   "update.mode": "manual",
   "terminal.integrated.defaultProfile.linux": "fish",
-  "workbench.colorTheme": "poimandres-noitalics",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Catppuccin Mocha",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
