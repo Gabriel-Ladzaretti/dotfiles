@@ -20,7 +20,7 @@
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
   "[go]": {
-    "editor.semanticHighlighting.enabled": false
+    "editor.semanticHighlighting.enabled": true
   },
   "debug.console.fontSize": 14,
   "editor.tokenColorCustomizations": {
