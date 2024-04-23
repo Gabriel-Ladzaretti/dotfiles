@@ -3,7 +3,7 @@
   "editor.fontVariations": false,
   "editor.fontWeight": "500",
   "editor.fontSize": 14,
-  "editor.lineHeight": 2,
+  "editor.lineHeight": 1.6,
   "editor.fontFamily": "'Hack Nerd Font'",
   "editor.bracketPairColorization.enabled": false,
   "editor.rulers": [
@@ -215,7 +215,7 @@
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Catppuccin Mocha",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
