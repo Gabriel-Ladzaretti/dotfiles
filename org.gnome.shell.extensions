@@ -86,20 +86,20 @@ layout-2-col-2=1
 layout-2-col-3=0
 layout-2-row-1=0
 layout-2-row-2=0
-layout-3-col-0=1
-layout-3-col-1=1
-layout-3-col-2=1
+layout-3-col-0=4
+layout-3-col-1=5
+layout-3-col-2=0
 layout-3-col-3=0
-layout-3-row-1=1
+layout-3-row-1=0
 layout-3-row-2=0
-layout-4-col-0=4
-layout-4-col-1=1
-layout-4-col-2=4
+layout-4-col-0=5
+layout-4-col-1=4
+layout-4-col-2=0
 layout-4-col-3=0
 layout-4-row-1=0
 layout-4-row-2=0
 maximize=true
-monitor-0-layout=4
+monitor-0-layout=3
 row-1=0
 row-2=0
 show-settings=['<Shift><Super>Return']
@@ -107,7 +107,7 @@ show-tiles=['<Super>Return']
 text-size=72
 
 [user-theme]
-name='gnome-purple-panel'
+name='gnome-purple-panel-v2'
 
 [vitals]
 fixed-widths=false
