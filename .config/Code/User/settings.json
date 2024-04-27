@@ -215,6 +215,7 @@
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.sideBar.location": "right",
+  "workbench.iconTheme": "catppuccin-mocha",
   "workbench.colorTheme": "Catppuccin Mocha",
   /*"todohighlight.keywords": [
     {
