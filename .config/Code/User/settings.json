@@ -3,7 +3,7 @@
   "editor.fontVariations": false,
   "editor.fontWeight": "500",
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.5,
+  "editor.lineHeight": 1.8,
   "editor.fontFamily": "'Hack Nerd Font'",
   "editor.bracketPairColorization.enabled": false,
   "editor.rulers": [
@@ -214,7 +214,6 @@
   "update.mode": "manual",
   "terminal.integrated.defaultProfile.linux": "fish",
   "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.sideBar.location": "right",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.colorTheme": "Catppuccin Mocha",
   /*"todohighlight.keywords": [
