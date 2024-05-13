@@ -182,8 +182,14 @@
     ]
   },
   "workbench.colorCustomizations": {
-    "gitDecoration.ignoredResourceForeground": "#949494aa",
-    "sideBar.foreground": "#b8b8b8",
+    "[Catppuccin Mocha]": {
+      "editorIndentGuide.activeBackground1": "#45475A",
+      "editorIndentGuide.background1": "#313244",
+      "editorLineNumber.foreground": "#6C7086",
+      "editorRuler.foreground": "#313244"
+    },
+    // "gitDecoration.ignoredResourceForeground": "#949494aa",
+    // "sideBar.foreground": "#b8b8b8",
     // "sideBar.foreground": "#9A9A9A"
   },
   "window.zoomLevel": 2,
@@ -216,6 +222,8 @@
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.colorTheme": "Catppuccin Mocha",
+  "editor.smoothScrolling": true,
+  "editor.mouseWheelScrollSensitivity": 3,
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
