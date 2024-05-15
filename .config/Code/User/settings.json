@@ -183,9 +183,9 @@
   },
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
-      "editorIndentGuide.activeBackground1": "#45475A",
-      "editorIndentGuide.background1": "#313244",
-      "editorLineNumber.foreground": "#6C7086",
+      // "editorIndentGuide.activeBackground1": "#45475A",
+      // "editorIndentGuide.background1": "#313244",
+      // "editorLineNumber.foreground": "#6C7086",
       "editorRuler.foreground": "#313244"
     },
     // "gitDecoration.ignoredResourceForeground": "#949494aa",
