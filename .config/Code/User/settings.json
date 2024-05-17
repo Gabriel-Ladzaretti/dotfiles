@@ -20,7 +20,8 @@
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
   "[go]": {
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabSize": 8
   },
   "debug.console.fontSize": 14,
   "editor.tokenColorCustomizations": {
@@ -183,8 +184,8 @@
   },
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
-      // "editorIndentGuide.activeBackground1": "#45475A",
-      // "editorIndentGuide.background1": "#313244",
+      "editorIndentGuide.activeBackground1": "#45475A",
+      "editorIndentGuide.background1": "#313244",
       // "editorLineNumber.foreground": "#6C7086",
       "editorRuler.foreground": "#313244"
     },
