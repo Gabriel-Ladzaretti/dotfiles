@@ -219,14 +219,13 @@
   },
   "window.customTitleBarVisibility": "auto",
   "update.mode": "manual",
-  "terminal.integrated.defaultProfile.linux": "fish",
+  "terminal.integrated.defaultProfile.linux": "bash",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.colorTheme": "Catppuccin Mocha",
   "editor.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 2,
   "workbench.activityBar.location": "top",
-  "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",

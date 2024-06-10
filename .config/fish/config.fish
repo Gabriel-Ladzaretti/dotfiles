@@ -32,13 +32,31 @@ set -g fish_color_valid_path --underline
 
 starship init fish | source
 
+# Dotfiles version control
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias d='dotfiles'
+
+# Obsidian
 alias obsidian='/usr/bin/git -C $HOME/GitHub/Obsidian'
+alias o='/usr/bin/git -C $HOME/GitHub/Obsidian'
+
+# Copy to clipboard
 alias xclip='xclip -selection c'
+
+# Tmux shortcuts
 alias tmux='tmux -u'
 alias tmuxx='tmux new-session -A -s'
+
+# General VCS
 alias g='git'
+
+# Directory navigation
+alias ...='cd ../..'
+alias ....='cd ../../..'
+# Address cd typo
+alias cd..='cd ..'
+alias docs='cd ~/Documents'
+alias dls='cd ~/Downloads'
 
 
 # if status is-interactive

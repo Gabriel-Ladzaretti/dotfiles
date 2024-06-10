@@ -8,7 +8,7 @@ import = [
 ]
 
 [shell]
-program = "/usr/bin/fish"
+program = "/usr/bin/bash"
 
 [window]
 decorations = "Full"
