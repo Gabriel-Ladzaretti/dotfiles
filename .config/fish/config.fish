@@ -58,6 +58,8 @@ alias cd..='cd ..'
 alias docs='cd ~/Documents'
 alias dl='cd ~/Downloads'
 
+alias code='code --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto --unity-launch $argv  > /dev/null 2>&1'
+
 
 # if status is-interactive
 # and not set -q TMUX

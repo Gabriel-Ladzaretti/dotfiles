@@ -1,7 +1,12 @@
+format ='$container$all'
+
 [character]
 success_symbol = "[❯](bold green)"
 error_symbol = "[✘](bold red)"
 vimcmd_symbol = "[❮](bold green)"
+
+[container]
+style = 'bold red'
 
 # Here is how you can shorten some long paths by text replacement
 # similar to mapped_locations in Oh My Posh:
