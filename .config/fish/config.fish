@@ -56,7 +56,7 @@ alias ....='cd ../../..'
 # Address cd typo
 alias cd..='cd ..'
 alias docs='cd ~/Documents'
-alias dls='cd ~/Downloads'
+alias dl='cd ~/Downloads'
 
 
 # if status is-interactive
