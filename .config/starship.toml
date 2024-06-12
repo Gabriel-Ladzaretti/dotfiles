@@ -6,6 +6,7 @@ error_symbol = "[✘](bold red)"
 vimcmd_symbol = "[❮](bold green)"
 
 [container]
+format = '[$symbol]($style) '
 style = 'bold red'
 
 # Here is how you can shorten some long paths by text replacement
