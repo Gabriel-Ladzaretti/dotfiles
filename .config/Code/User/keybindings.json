@@ -30,4 +30,12 @@
         "command": "-editor.action.formatDocument.none",
         "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
     },
+    {
+        "key": "shift+alt+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "shift+alt+l",
+        "command": "editor.action.transformToLowercase"
+    },
 ]
