@@ -61,8 +61,20 @@ alias dl='cd ~/Downloads'
 alias code='code --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto --unity-launch $argv  > /dev/null 2>&1'
 
 
-# if status is-interactive
-# and not set -q TMUX
-#     exec tmux new-session -A -s Home
-# end
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    #
+   
+    # Function to display fastfetch welcome screen 
+    # if running in alacritty terminal
+    function alacritty_welcome
+        set bin fastfetch
+        if test "$TERM" = "alacritty"
+            and type -q $bin
+            command $bin
+        end
+    end
+   
+    alacritty_welcome
+end
 
