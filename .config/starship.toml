@@ -22,6 +22,9 @@ style = 'bold red'
 # So either put "Important Documents" before "Documents" or use the substituted version:
 # "Important 󰈙 " = " 󰈙 "
 
+[git_status]
+deleted = 'x'
+
 [shell]
 disabled = false
 # bash_indicator = "󱆃"

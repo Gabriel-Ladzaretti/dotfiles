@@ -37,8 +37,8 @@ alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 alias d='dotfiles'
 
 # Obsidian
-alias obsidian='/usr/bin/git -C $HOME/GitHub/Obsidian'
-alias o='/usr/bin/git -C $HOME/GitHub/Obsidian'
+alias obsidian='/usr/bin/git -C $HOME/GitHub/Gabriel-Ladzaretti/obsidian'
+alias o=obsidian
 
 # Copy to clipboard
 alias xclip='xclip -selection c'
