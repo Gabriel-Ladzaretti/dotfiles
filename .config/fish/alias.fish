@@ -33,12 +33,12 @@ abbr -a dl dotfiles log --oneline -n 15
 
 # Obsidian version control
 alias obsidian='/usr/bin/git -C $HOME/GitHub/Gabriel-Ladzaretti/obsidian'
+alias oct="obsidian commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\""
 abbr -a o obsidian
 abbr -a os obsidian status -sb
 abbr -a oa obsidian add
 abbr -a oc obsidian commit
 abbr -a ocm obsidian commit -m
-abbr -a oct obsidian commit -m "$(date +'%Y-%m-%d %H:%M:%S')"
 abbr -a oca obsidian commit --amend
 abbr -a ocl obsidian clone
 abbr -a oco obsidian checkout
