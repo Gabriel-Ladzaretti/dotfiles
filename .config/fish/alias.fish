@@ -2,6 +2,7 @@
 abbr -a g git
 abbr -a gs git status -sb
 abbr -a ga git add
+abbr -a ga. git add .
 abbr -a gc git commit
 abbr -a gcm git commit -m
 abbr -a gca git commit --amend
@@ -19,6 +20,7 @@ alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 abbr -a d dotfiles
 abbr -a ds dotfiles status -sb
 abbr -a da dotfiles add
+abbr -a da. dotfiles add .
 abbr -a dc dotfiles commit
 abbr -a dcm dotfiles commit -m
 abbr -a dca dotfiles commit --amend
@@ -37,6 +39,7 @@ alias oct="obsidian commit -m \"$(date +'%Y-%m-%d %H:%M:%S')\""
 abbr -a o obsidian
 abbr -a os obsidian status -sb
 abbr -a oa obsidian add
+abbr -a oa. obsidian add .
 abbr -a oc obsidian commit
 abbr -a ocm obsidian commit -m
 abbr -a oca obsidian commit --amend
