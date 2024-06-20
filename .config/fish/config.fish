@@ -1,3 +1,4 @@
+source ~/.config/fish/functions/navigation.fish
 source ~/.config/fish/alias.fish
 
 if status is-interactive

@@ -226,6 +226,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 2,
   "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
