@@ -226,6 +226,7 @@
   "editor.smoothScrolling": true,
   "editor.mouseWheelScrollSensitivity": 2,
   "workbench.activityBar.location": "top",
+  "gitlens.views.worktrees.files.layout": "tree",
   "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
     {
