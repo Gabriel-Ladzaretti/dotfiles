@@ -61,6 +61,10 @@ alias xclip='xclip -selection c'
 alias tmux='tmux -u'
 alias tmuxx='tmux new-session -A -s'
 
+# vim shortcut
+alias v='vim'
+
+
 # Navigation
 alias ...='.. 2'
 alias ....='.. 3'
@@ -70,3 +74,4 @@ alias code='code --enable-features=UseOzonePlatform,WaylandWindowDecorations --o
 
 # misc
 alias reload='exec fish'
+

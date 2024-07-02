@@ -8,3 +8,4 @@ alias xclip='xclip -selection c'
 alias tmux='tmux -u'
 alias g="git"
 alias tmuxx='tmux new-session -A -s'
+alias v='vim'
