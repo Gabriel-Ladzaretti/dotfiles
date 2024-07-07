@@ -1,6 +1,7 @@
 {
   "debug.inlineValues": "on",
   "editor.fontVariations": false,
+  "editor.cursorSurroundingLines": 8,
   "editor.fontWeight": "500",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
@@ -319,43 +320,6 @@
         "workbench.action.focusRightGroup"
       ]
     },
-    // panes
-    {
-      "before": [
-        "leader",
-        "h"
-      ],
-      "commands": [
-        "workbench.action.focusLeftGroup"
-      ]
-    },
-    {
-      "before": [
-        "leader",
-        "j"
-      ],
-      "commands": [
-        "workbench.action.focusBelowGroup"
-      ]
-    },
-    {
-      "before": [
-        "leader",
-        "k"
-      ],
-      "commands": [
-        "workbench.action.focusAboveGroup"
-      ]
-    },
-    {
-      "before": [
-        "leader",
-        "l"
-      ],
-      "commands": [
-        "workbench.action.focusRightGroup"
-      ]
-    },
     // NICE TO HAVE
     {
       "before": [
@@ -432,15 +396,14 @@
     },
     {
       "before": [
-        "g",
-        "h"
+        "<C-k>",
       ],
       "commands": [
         "editor.action.showDefinitionPreviewHover"
       ]
     }
   ],
-    "vim.visualModeKeyBindings": [
+  "vim.visualModeKeyBindings": [
     {
       "before": [
         "leader",
