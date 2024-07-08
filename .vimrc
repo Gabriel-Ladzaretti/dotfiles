@@ -60,12 +60,21 @@ noremap <Down>  <Nop>
 noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
+
 " toggle relative/absulote line numbers based on normal/insert
 " mode respectivly
 set nu rnu
 
+" Define leader
+let mapleader = " " " map leader to space
+
+" Manage buffers
+nnoremap <leader>b :ls<CR>:b<Space> 
+nnoremap <leader>/ :noh<CR>
+
 augroup numbertoggle
-  autocmd!
-  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
-  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+ autocmd!
+ autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
+ autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
+
