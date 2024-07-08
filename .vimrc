@@ -63,7 +63,6 @@ noremap <Right> <Nop>
 " toggle relative/absulote line numbers based on normal/insert
 " mode respectivly
 set nu rnu
-set number
 
 augroup numbertoggle
   autocmd!
