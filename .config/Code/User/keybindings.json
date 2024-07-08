@@ -143,4 +143,16 @@
         "command": "explorer.newFolder",
         "when": "explorerViewletFocus"
     },
+    // Exit auto-suggestion mode without leaving insert mode
+    // https://github.com/VSCodeVim/Vim/issues/826#issuecomment-346518581
+    {
+        "key": "escape",
+        "command": "-extension.vim_escape",
+        "when": "editorTextFocus && vim.active && !inDebugRepl"
+    },
+    {
+        "key": "escape",
+        "command": "extension.vim_escape",
+        "when": "editorTextFocus && !inDebugRepl && !suggestWidgetVisible"
+    }
 ]
