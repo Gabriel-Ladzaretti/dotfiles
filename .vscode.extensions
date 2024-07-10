@@ -1,14 +1,17 @@
 ahmadawais.shades-of-purple
 albert.tabout
 alefragnani.bookmarks
+bceskavich.theme-dracula-at-night
 catppuccin.catppuccin-vsc
 catppuccin.catppuccin-vsc-icons
+dracula-theme.theme-dracula
 eamodio.gitlens
 enkia.tokyo-night
 foxundermoon.shell-format
 github.github-vscode-theme
 golang.go
 jaredkent.laserwave
+mads-hartmann.bash-ide-vscode
 ms-azuretools.vscode-docker
 ms-vscode-remote.remote-containers
 ms-vscode-remote.remote-ssh
@@ -20,6 +23,7 @@ r3inbowari.gomodexplorer
 robbowen.synthwave-vscode
 sdras.inbedby7pm
 sdras.night-owl
+solarliner.linux-themes
 timonwong.shellcheck
 usernamehw.errorlens
 wayou.vscode-todo-highlight
