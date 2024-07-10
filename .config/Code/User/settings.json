@@ -185,8 +185,8 @@
   },
   "workbench.colorCustomizations": {
     "[Adapta Nokto]": {
-      "scrollbar.shadow": "#ffffff00",
-      "widget.shadow": "#ffffff00"
+      "scrollbar.shadow": "#ffffff0c",
+      "widget.shadow": "#ffffff0c"
     },
     "[Catppuccin Mocha]": {
       "editorIndentGuide.activeBackground1": "#45475A",
