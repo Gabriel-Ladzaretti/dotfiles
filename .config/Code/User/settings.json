@@ -232,7 +232,7 @@
   "workbench.activityBar.location": "top",
   "gitlens.views.worktrees.files.layout": "tree",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Adapta Nokto",
+  "workbench.colorTheme": "Catppuccin Mocha",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
