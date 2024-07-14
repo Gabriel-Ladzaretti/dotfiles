@@ -214,7 +214,7 @@
     "enabled": true
   },
   "gopls": {
-    "ui.semanticTokens": true
+    "ui.semanticTokens": false
   },
   "go.toolsManagement.autoUpdate": true,
   "extensions.autoUpdate": false,
