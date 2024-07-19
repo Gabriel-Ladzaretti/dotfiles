@@ -1,11 +1,11 @@
 {
-  "debug.inlineValues": "on",
+  "debug.inlineValues": "off",
   "editor.fontVariations": false,
   "editor.cursorSurroundingLines": 10,
   "editor.fontWeight": "500",
   "editor.fontSize": 14,
   "editor.lineHeight": 1.8,
-  "editor.fontFamily": "'Hack Nerd Font'",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
   "editor.bracketPairColorization.enabled": false,
   "editor.rulers": [
     80,
@@ -16,7 +16,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": 500,
   "terminal.integrated.fontWeightBold": 600,
-  "terminal.integrated.fontFamily": "'Hack Nerd Font'",
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
   "telemetry.telemetryLevel": "off",
   "window.dialogStyle": "custom",
   "window.titleBarStyle": "custom",
@@ -233,6 +233,9 @@
   "gitlens.views.worktrees.files.layout": "tree",
   "workbench.sideBar.location": "right",
   "workbench.colorTheme": "Catppuccin Mocha",
+  "cSpell.userWords": [
+    "healthz"
+  ],
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
