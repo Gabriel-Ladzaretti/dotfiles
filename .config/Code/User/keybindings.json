@@ -81,5 +81,9 @@
     {
         "key": "ctrl+k n",
         "command": "workbench.action.moveEditorToNewWindow"
+    },
+    {
+        "key": "ctrl+[Backquote]",
+        "command": "workbench.action.terminal.toggleTerminal"
     }
 ]
