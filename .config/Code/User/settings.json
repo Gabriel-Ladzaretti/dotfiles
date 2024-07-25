@@ -192,6 +192,10 @@
       "scrollbar.shadow": "#0000000c",
       "widget.shadow": "#0000000c"
     },
+    "[Dracula At Night]": {
+      "scrollbar.shadow": "#0000000c",
+      "widget.shadow": "#0000000c"
+    },
     "[Catppuccin Mocha]": {
       "editorIndentGuide.activeBackground1": "#45475A",
       "editorIndentGuide.background1": "#313244",
@@ -239,7 +243,7 @@
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "Ariake Dark",
+  "workbench.colorTheme": "Dracula At Night",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
