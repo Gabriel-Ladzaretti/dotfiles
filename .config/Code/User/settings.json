@@ -239,11 +239,10 @@
   "editor.mouseWheelScrollSensitivity": 2,
   "workbench.activityBar.location": "top",
   "gitlens.views.worktrees.files.layout": "tree",
-  "workbench.sideBar.location": "right",
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "Dracula At Night",
+  "workbench.colorTheme": "Ariake Dark",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
