@@ -188,6 +188,10 @@
       "scrollbar.shadow": "#ffffff0c",
       "widget.shadow": "#ffffff0c"
     },
+    "[Ariake Dark]": {
+      "scrollbar.shadow": "#0000000c",
+      "widget.shadow": "#0000000c"
+    },
     "[Catppuccin Mocha]": {
       "editorIndentGuide.activeBackground1": "#45475A",
       "editorIndentGuide.background1": "#313244",
@@ -235,7 +239,7 @@
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "poimandres",
+  "workbench.colorTheme": "Ariake Dark",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
