@@ -246,7 +246,8 @@
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "Ariake Dark",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
