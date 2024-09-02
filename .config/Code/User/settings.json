@@ -1,5 +1,9 @@
 {
   "debug.inlineValues": "off",
+  "diffEditor.experimental.useTrueInlineView": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.experimental.showMoves": true,
   "editor.fontVariations": false,
   "editor.cursorSurroundingLines": 10,
   "editor.fontWeight": "500",
@@ -221,12 +225,12 @@
     "editor.autoIndent": "advanced"
   },
   "files.autoSave": "onFocusChange",
-  "editor.semanticHighlighting.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "enabled": true
   },
   "gopls": {
-    "ui.semanticTokens": false
+    "ui.semanticTokens": true
   },
   "go.toolsManagement.autoUpdate": true,
   "extensions.autoUpdate": false,
@@ -246,8 +250,7 @@
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Dracula At Night",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
