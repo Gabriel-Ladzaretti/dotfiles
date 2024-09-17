@@ -1,4 +1,4 @@
-{
+  {
   "debug.inlineValues": "off",
   "diffEditor.experimental.useTrueInlineView": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
@@ -250,7 +250,8 @@
   "cSpell.userWords": [
     "healthz"
   ],
-  "workbench.colorTheme": "Dracula At Night",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.sideBar.location": "right",
   /*"todohighlight.keywords": [
     {
       "text": "TODO:",
