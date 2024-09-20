@@ -9,7 +9,7 @@ firmware_path=${2:?"Usage: $0 <device> <firmware_path>"}
 
 check_sudo() {
     if [[ $EUID -ne 0 ]]; then
-        echo_err "Error: This script must be run with sudo"
+        echo "Error: This script must be run with sudo"
         exit 1
     fi
 }
@@ -17,7 +17,8 @@ check_sudo() {
 # Run script
 check_sudo
 
-echo "sleeping 5 seconds before performing flash"
+echo "please enter dfu mode"
+echo "sleeping 5 seconds before performing flash..."
 sleep 5
 
 dfu-util \
