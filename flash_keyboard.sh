@@ -18,8 +18,8 @@ check_sudo() {
 check_sudo
 
 echo "please enter dfu mode"
-echo "sleeping 5 seconds before performing flash..."
-sleep 5
+echo "sleeping 10  seconds before performing flash..."
+sleep 10
 
 dfu-util \
     --alt 0 \
