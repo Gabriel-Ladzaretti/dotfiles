@@ -39,6 +39,10 @@ export NVM_DIR="$HOME/.nvm"
 
 export MOZ_ENABLE_WAYLAND=1
 
+## set default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
 eval "$(starship init bash)"
 
 fish

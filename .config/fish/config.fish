@@ -42,6 +42,11 @@ set -g fish_color_search_match '#F9E2AF'  '--background=brblack' # fg=yellow
 set -g fish_color_selection 'white'  '--bold'  '--background=brblack'
 set -g fish_color_user '#A6E3A1' #green
 set -g fish_color_valid_path --underline
+
+# set default editor
+set -gx EDITOR vim
+
+
 # set -g fish_color_error '#ff79a8' '--bold'
 # set -g fish_color_param cyan
 
