@@ -19,7 +19,7 @@ x = 1
 y = 1
 
 [window.dimensions]
-columns = 92
+columns = 100
 lines = 28
 
 [font]
