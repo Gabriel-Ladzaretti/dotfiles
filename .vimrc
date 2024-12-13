@@ -52,8 +52,6 @@ if has('syntax') && has('eval')
   packadd! matchit
 endif
 
-
-
 " disable arrow keys
 noremap <Up>    <Nop>
 noremap <Down>  <Nop>
@@ -72,10 +70,8 @@ let mapleader = " "
 nnoremap <leader>b :ls<CR>:b<Space> 
 nnoremap <leader>/ :noh<CR>
 
-
 " map 
 inoremap jj <Esc>
-
 
 augroup numbertoggle
  autocmd!
@@ -83,9 +79,18 @@ augroup numbertoggle
  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
+" Modify status line
 set laststatus=2
 set noshowmode
 set termguicolors
+
+" Enable catppuccin theme
 colorscheme catppuccin_mocha 
 let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+
+" Theme modifications
+" Enable transparent background
 hi Normal guibg=NONE ctermbg=NONE
+
+" Remove italics from the ErrorMsg display
+hi ErrorMsg cterm=bold gui=bold
