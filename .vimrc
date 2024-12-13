@@ -60,17 +60,22 @@ noremap <Down>  <Nop>
 noremap <Left>  <Nop>
 noremap <Right> <Nop>
 
-
 " toggle relative/absulote line numbers based on normal/insert
 " mode respectivly
 set nu rnu
 
 " Define leader
-let mapleader = " " " map leader to space
+" map leader to space
+let mapleader = " " 
 
 " Manage buffers
 nnoremap <leader>b :ls<CR>:b<Space> 
 nnoremap <leader>/ :noh<CR>
+
+
+" map 
+inoremap jj <Esc>
+
 
 augroup numbertoggle
  autocmd!
@@ -78,3 +83,9 @@ augroup numbertoggle
  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
+set laststatus=2
+set noshowmode
+set termguicolors
+colorscheme catppuccin_mocha 
+let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+hi Normal guibg=NONE ctermbg=NONE
