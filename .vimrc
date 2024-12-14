@@ -87,6 +87,9 @@ call plug#begin()
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
 
+" Disable the welcome splash screen
+set shortmess+=I
+
 call plug#end()
 
 " Modify status line
