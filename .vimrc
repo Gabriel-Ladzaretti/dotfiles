@@ -79,6 +79,8 @@ augroup numbertoggle
  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
+set term=xterm-256color
+
 " Modify status line
 set laststatus=2
 set noshowmode
@@ -90,7 +92,7 @@ let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 
 " Theme modifications
 " Enable transparent background
-hi Normal guibg=NONE ctermbg=NONE
+" hi Normal guibg=NONE ctermbg=NONE
 
 " Remove italics from the ErrorMsg display
 hi ErrorMsg cterm=bold gui=bold

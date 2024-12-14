@@ -4,7 +4,7 @@ program = "/usr/bin/bash"
 
 [window]
 decorations = "Full"
-opacity = 0.96
+opacity = 0.97
 
 [window.padding]
 x = 1
