@@ -108,3 +108,10 @@ let g:lightline = {'colorscheme': 'catppuccin_mocha'}
 
 " Remove italics from the ErrorMsg display
 hi ErrorMsg cterm=bold gui=bold
+
+" Fzf
+" Initialize configuration dictionary
+let g:fzf_vim = {}
+let g:fzf_vim.preview_window = ['hidden,right,50%,border-sharp', 'ctrl-/']
+let g:fzf_layout = {'window': {'width': 1, 'height': 0.4,'yoffset': 1, 'border': 'horizontal'}}
+
