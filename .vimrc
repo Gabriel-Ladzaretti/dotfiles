@@ -69,7 +69,7 @@ let mapleader = " "
 " Manage buffers
 nnoremap <leader>b :ls<CR>:b<Space> 
 nnoremap <leader>/ :noh<CR>
-
+nnoremap <leader><space> :Files<CR>
 " map 
 inoremap jj <Esc>
 
@@ -79,18 +79,18 @@ augroup numbertoggle
  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
-set term=xterm-256color
-
 call plug#begin()
 
 " List your plugins here
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
 
 " Disable the welcome splash screen
 set shortmess+=I
-
-call plug#end()
 
 " Modify status line
 set laststatus=2
