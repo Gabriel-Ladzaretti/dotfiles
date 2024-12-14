@@ -67,7 +67,8 @@ set nu rnu
 let mapleader = " " 
 
 " Manage buffers
-nnoremap <leader>b :ls<CR>:b<Space> 
+" nnoremap <leader>b :ls<CR>:b<Space> 
+nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>/ :noh<CR>
 nnoremap <leader><space> :Files<CR>
 " map 
