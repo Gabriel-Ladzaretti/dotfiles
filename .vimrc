@@ -81,6 +81,14 @@ augroup END
 
 set term=xterm-256color
 
+call plug#begin()
+
+" List your plugins here
+Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+Plug 'itchyny/lightline.vim'
+
+call plug#end()
+
 " Modify status line
 set laststatus=2
 set noshowmode
