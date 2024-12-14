@@ -70,7 +70,9 @@ let mapleader = " "
 " nnoremap <leader>b :ls<CR>:b<Space> 
 nnoremap <leader>b :Buffers<CR>
 nnoremap <leader>/ :noh<CR>
-nnoremap <leader><space> :Files<CR>
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>r :Rg<CR>
+
 " map 
 inoremap jj <Esc>
 
