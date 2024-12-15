@@ -73,8 +73,15 @@ nnoremap <leader>/ :noh<CR>
 nnoremap <leader>f :Files<CR>
 nnoremap <leader>r :Rg<CR>
 
-" map 
 inoremap jj <Esc>
+
+augroup xsel
+  autocmd!
+  vnoremap <silent> <Leader>c :silent w !xsel -sb >/dev/null 2>&1<CR>
+  nnoremap <silent> <Leader>v :r !xsel -ob<CR>
+  " Leader bind in insert mode causes a delay when using space
+  " inoremap <silent> <Leader>v <C-r>=system('xsel -ob')<CR>
+augroup END
 
 augroup numbertoggle
  autocmd!
@@ -115,5 +122,5 @@ hi ErrorMsg cterm=bold gui=bold
 " Initialize configuration dictionary
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['hidden,right,50%,border-sharp', 'ctrl-/']
-let g:fzf_layout = {'window': {'width': 1, 'height': 0.4,'yoffset': 1, 'border': 'horizontal'}}
+let g:fzf_layout = {'window': {'width': 1, 'height': 0.4,'yoffset': 1, 'border': 'sharp','relative': v:true}}
 
