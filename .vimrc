@@ -1,97 +1,53 @@
-" An example for a vimrc file.
-"
-" Maintainer:	The Vim Project <https://github.com/vim/vim>
-" Last Change:	2023 Aug 10
-" Former Maintainer:	Bram Moolenaar <Bram@vim.org>
-"
-" To use it, copy it to
-"	       for Unix:  ~/.vimrc
-"	      for Amiga:  s:.vimrc
-"	 for MS-Windows:  $VIM\_vimrc
-"	      for Haiku:  ~/config/settings/vim/vimrc
-"	    for OpenVMS:  sys$login:.vimrc
-
-" When started as "evim", evim.vim will already have done these settings, bail
-" out.
+" =======================================
+" Early Exit for 'evim'
+" =======================================
 if v:progname =~? "evim"
   finish
 endif
 
-" Get the defaults that most users want.
+" =======================================
+" Default Settings
+" =======================================
 source $VIMRUNTIME/defaults.vim
 
 if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
+  set nobackup " Use versions instead of backup files
 else
-  set backup		" keep a backup file (restore to previous version)
+  set backup   " Keep backup files
   if has('persistent_undo')
-    set undofile	" keep an undo file (undo changes after closing)
+    set undofile " Enable persistent undo
   endif
 endif
 
 if &t_Co > 2 || has("gui_running")
-  " Switch on highlighting the last used search pattern.
-  set hlsearch
+  set hlsearch " Highlight search results
 endif
 
-" Put these in an autocmd group, so that we can delete them easily.
+" =======================================
+" Autocommands
+" =======================================
 augroup vimrcEx
-  au!
-
-  " For all text files set 'textwidth' to 78 characters.
-  autocmd FileType text setlocal textwidth=78
+  autocmd!
+  autocmd FileType text setlocal textwidth=78 " Set 'textwidth' for text files
 augroup END
 
-" Add optional packages.
-"
-" The matchit plugin makes the % command work better, but it is not backwards
-" compatible.
-" The ! means the package won't be loaded right away but when plugins are
-" loaded during initialization.
-if has('syntax') && has('eval')
-  packadd! matchit
-endif
-
-" disable arrow keys
-noremap <Up>    <Nop>
-noremap <Down>  <Nop>
-noremap <Left>  <Nop>
-noremap <Right> <Nop>
-
-" toggle relative/absulote line numbers based on normal/insert
-" mode respectivly
-set nu rnu
-
-" Define leader
-" map leader to space
-let mapleader = " " 
-
-" Manage buffers
-" nnoremap <leader>b :ls<CR>:b<Space> 
-nnoremap <leader>b :Buffers<CR>
-nnoremap <leader>/ :noh<CR>
-nnoremap <leader>f :Files<CR>
-nnoremap <leader>r :Rg<CR>
-
-inoremap jj <Esc>
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu | endif
+  autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
+augroup END
 
 augroup xsel
   autocmd!
   vnoremap <silent> <Leader>c :silent w !xsel -sb >/dev/null 2>&1<CR>
   nnoremap <silent> <Leader>v :r !xsel -ob<CR>
-  " Leader bind in insert mode causes a delay when using space
-  " inoremap <silent> <Leader>v <C-r>=system('xsel -ob')<CR>
 augroup END
 
-augroup numbertoggle
- autocmd!
- autocmd BufEnter,FocusGained,InsertLeave,WinEnter * if &nu && mode() != "i" | set rnu   | endif
- autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
-augroup END
-
+" =======================================
+" Plugin Management
+" =======================================
 call plug#begin()
 
-" List your plugins here
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -99,28 +55,55 @@ Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
-" Disable the welcome splash screen
-set shortmess+=I
+" =======================================
+" Key Mappings
+" =======================================
 
-" Modify status line
-set laststatus=2
-set noshowmode
-set termguicolors
+" Define leader key as Space
+let mapleader = " " 
 
-" Enable catppuccin theme
-colorscheme catppuccin_mocha 
-let g:lightline = {'colorscheme': 'catppuccin_mocha'}
+" Disable arrow keys
+noremap <Up>    <Nop> 
+noremap <Down>  <Nop>
+noremap <Left>  <Nop>
+noremap <Right> <Nop>
 
-" Theme modifications
-" Enable transparent background
-" hi Normal guibg=NONE ctermbg=NONE
+nnoremap <leader>/ :noh<CR>
 
-" Remove italics from the ErrorMsg display
-hi ErrorMsg cterm=bold gui=bold
+" FZF mappings
+nnoremap <leader>b :Buffers<CR>
+nnoremap <leader>f :Files<CR>
+nnoremap <leader>r :Rg<CR>
 
-" Fzf
-" Initialize configuration dictionary
+inoremap jj <Esc>
+
+" =======================================
+" FZF Configuration
+" =======================================
 let g:fzf_vim = {}
 let g:fzf_vim.preview_window = ['hidden,right,50%,border-sharp', 'ctrl-/']
-let g:fzf_layout = {'window': {'width': 1, 'height': 0.4,'yoffset': 1, 'border': 'sharp','relative': v:true}}
+let g:fzf_layout = {
+      \ 'window': {
+      \   'width': 1,
+      \   'height': 0.4,
+      \   'yoffset': 1,
+      \   'border': 'sharp',
+      \   'relative': v:true
+      \ }
+      \ }
 
+" =======================================
+" UI Enhancements
+" =======================================
+set shortmess+=I      " Disable welcome splash screen
+set laststatus=2      " Always show status line
+set noshowmode        " Hide mode display (handled by status line)
+set termguicolors     " Enable 24-bit colors
+colorscheme catppuccin_mocha " Set color scheme
+let g:lightline = { 'colorscheme': 'catppuccin_mocha' }
+
+" =======================================
+" Miscellaneous
+" =======================================
+set nu rnu " Enable relative/absolute line numbers based on mode
+hi ErrorMsg cterm=bold gui=bold " Customize error message display
