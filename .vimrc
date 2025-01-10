@@ -37,12 +37,6 @@ augroup numbertoggle
   autocmd BufLeave,FocusLost,InsertEnter,WinLeave   * if &nu                  | set nornu | endif
 augroup END
 
-augroup xsel
-  autocmd!
-  vnoremap <silent> <Leader>c :silent w !xsel -sb >/dev/null 2>&1<CR>
-  nnoremap <silent> <Leader>v :r !xsel -ob<CR>
-augroup END
-
 " =======================================
 " Plugin Management
 " =======================================
@@ -61,6 +55,12 @@ call plug#end()
 
 " Define leader key as Space
 let mapleader = " " 
+
+augroup xsel
+  autocmd!
+  vnoremap <silent> <leader>c :silent w !xsel -sb >/dev/null 2>&1<CR>
+  nnoremap <silent> <leader>v :r !xsel -ob<CR>
+augroup END
 
 " Disable arrow keys
 noremap <Up>    <Nop> 
