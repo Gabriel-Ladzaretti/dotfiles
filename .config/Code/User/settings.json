@@ -1,262 +1,281 @@
   {
-  "debug.inlineValues": "off",
-  "diffEditor.experimental.useTrueInlineView": true,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "diffEditor.renderSideBySide": true,
-  "diffEditor.experimental.showMoves": true,
-  "editor.fontVariations": false,
-  "editor.cursorSurroundingLines": 10,
-  "editor.fontWeight": "500",
-  "editor.fontSize": 14,
-  "editor.lineHeight": 1.8,
-  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
-  "editor.bracketPairColorization.enabled": false,
-  "editor.rulers": [
-    80,
-    110
-  ],
-  "explorer.autoReveal": true,
-  "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": 500,
-  "terminal.integrated.fontWeightBold": 600,
-  "terminal.integrated.fontFamily": "'Hack Nerd Font'",
-  "telemetry.telemetryLevel": "off",
-  "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
-  "[go]": {
-    "editor.semanticHighlighting.enabled": true,
-    "editor.tabSize": 8
-  },
-  "debug.console.fontSize": 14,
-  "editor.tokenColorCustomizations": {
-    "[Palenight (Mild Contrast)]": {
+    "debug.inlineValues": "off",
+    "diffEditor.experimental.useTrueInlineView": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.experimental.showMoves": true,
+    "editor.fontVariations": false,
+    "editor.cursorSurroundingLines": 10,
+    "editor.inlayHints.enabled": "on",
+    "editor.fontWeight": "500",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.rulers": [
+      80,
+      110
+    ],
+    "explorer.autoReveal": true,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": 500,
+    "terminal.integrated.fontWeightBold": 600,
+    "terminal.integrated.fontFamily": "'Hack Nerd Font'",
+    "telemetry.telemetryLevel": "off",
+    "window.dialogStyle": "custom",
+    "window.titleBarStyle": "custom",
+    "[go]": {
+      "editor.semanticHighlighting.enabled": true,
+      "editor.tabSize": 8
+    },
+    "debug.console.fontSize": 14,
+    "editor.tokenColorCustomizations": {
+      "[Palenight (Mild Contrast)]": {
+        "textMateRules": [
+          {
+            "scope": [
+              "comment",
+              "comment.line.double-slash",
+            ],
+            "settings": {
+              // "foreground": "#737AA2", // +10
+              "foreground": "#6E759D", // +5
+              // "foreground": "#697098",
+            }
+          },
+          {
+            "scope": "variable",
+            "settings": {
+              "foreground": "#BFC7D5",
+              // "foreground": "#BFC7D5",
+              // "foreground": "#acb0c4",
+            }
+          },
+          {
+            "scope": "variable.other.go",
+            "settings": {
+              "foreground": "#BFC7D5",
+              // "foreground": "#BFC7D5",
+              // "foreground": "#acb0c4",
+            }
+          },
+          {
+            "scope": "variable.parameter",
+            "settings": {
+              "foreground": "#bfc7d5",
+            }
+          },
+          {
+            "scope": "entity.name.type.go",
+            "settings": {
+              // "foreground": "#ffeeca",
+              // "foreground": "#eed38f",
+              "foreground": "#ead3a8",
+              // "foreground": "#F9E2AF",
+              // "foreground": "#fae5bd",
+            }
+          },
+        ]
+      },
       "textMateRules": [
         {
           "scope": [
             "comment",
-            "comment.line.double-slash",
+            "comment.block",
+            "comment.block.documentation",
+            "comment.line",
+            "constant",
+            "constant.character",
+            "constant.character.escape",
+            "constant.numeric",
+            "constant.numeric.integer",
+            "constant.numeric.float",
+            "constant.numeric.hex",
+            "constant.numeric.octal",
+            "constant.other",
+            "constant.regexp",
+            "constant.rgb-value",
+            "emphasis",
+            "entity",
+            "entity.name",
+            "entity.name.class",
+            "entity.name.function",
+            "entity.name.method",
+            "entity.name.section",
+            "entity.name.selector",
+            "entity.name.tag",
+            "entity.name.type",
+            "entity.other",
+            "entity.other.attribute-name",
+            "entity.other.inherited-class",
+            "invalid",
+            "invalid.deprecated",
+            "invalid.illegal",
+            "keyword",
+            "keyword.control",
+            "keyword.operator",
+            "keyword.operator.new",
+            "keyword.operator.assignment",
+            "keyword.operator.arithmetic",
+            "keyword.operator.logical",
+            "keyword.other",
+            "markup",
+            "markup.bold",
+            "markup.changed",
+            "markup.deleted",
+            "markup.heading",
+            "markup.inline.raw",
+            "markup.inserted",
+            "markup.italic",
+            "markup.list",
+            "markup.list.numbered",
+            "markup.list.unnumbered",
+            "markup.other",
+            "markup.quote",
+            "markup.raw",
+            "markup.underline",
+            "markup.underline.link",
+            "meta",
+            "meta.block",
+            "meta.cast",
+            "meta.class",
+            "meta.function",
+            "meta.function-call",
+            "meta.preprocessor",
+            "meta.return-type",
+            "meta.selector",
+            "meta.tag",
+            "meta.type.annotation",
+            "meta.type",
+            "punctuation.definition.string.begin",
+            "punctuation.definition.string.end",
+            "punctuation.separator",
+            "punctuation.separator.continuation",
+            "punctuation.terminator",
+            "storage",
+            "storage.modifier",
+            "storage.type",
+            "string",
+            "string.interpolated",
+            "string.other",
+            "string.quoted",
+            "string.quoted.double",
+            "string.quoted.other",
+            "string.quoted.single",
+            "string.quoted.triple",
+            "string.regexp",
+            "string.unquoted",
+            "strong",
+            "support",
+            "support.class",
+            "support.constant",
+            "support.function",
+            "support.other",
+            "support.type",
+            "support.type.property-name",
+            "support.variable",
+            "variable",
+            "variable.language",
+            "variable.name",
+            "variable.other",
+            "variable.other.readwrite",
+            "variable.parameter"
           ],
           "settings": {
-            // "foreground": "#737AA2", // +10
-            "foreground": "#6E759D", // +5
-            // "foreground": "#697098",
-          }
-        },
-        {
-          "scope": "variable",
-          "settings": {
-            "foreground": "#BFC7D5",
-            // "foreground": "#BFC7D5",
-            // "foreground": "#acb0c4",
-          }
-        },
-        {
-          "scope": "variable.other.go",
-          "settings": {
-            "foreground": "#BFC7D5",
-            // "foreground": "#BFC7D5",
-            // "foreground": "#acb0c4",
-          }
-        },
-        {
-          "scope": "variable.parameter",
-          "settings": {
-            "foreground": "#bfc7d5",
-          }
-        },
-        {
-          "scope": "entity.name.type.go",
-          "settings": {
-            // "foreground": "#ffeeca",
-            // "foreground": "#eed38f",
-            "foreground": "#ead3a8",
-            // "foreground": "#F9E2AF",
-            // "foreground": "#fae5bd",
+            "fontStyle": ""
           }
         },
       ]
     },
-    "textMateRules": [
-      {
-        "scope": [
-          "comment",
-          "comment.block",
-          "comment.block.documentation",
-          "comment.line",
-          "constant",
-          "constant.character",
-          "constant.character.escape",
-          "constant.numeric",
-          "constant.numeric.integer",
-          "constant.numeric.float",
-          "constant.numeric.hex",
-          "constant.numeric.octal",
-          "constant.other",
-          "constant.regexp",
-          "constant.rgb-value",
-          "emphasis",
-          "entity",
-          "entity.name",
-          "entity.name.class",
-          "entity.name.function",
-          "entity.name.method",
-          "entity.name.section",
-          "entity.name.selector",
-          "entity.name.tag",
-          "entity.name.type",
-          "entity.other",
-          "entity.other.attribute-name",
-          "entity.other.inherited-class",
-          "invalid",
-          "invalid.deprecated",
-          "invalid.illegal",
-          "keyword",
-          "keyword.control",
-          "keyword.operator",
-          "keyword.operator.new",
-          "keyword.operator.assignment",
-          "keyword.operator.arithmetic",
-          "keyword.operator.logical",
-          "keyword.other",
-          "markup",
-          "markup.bold",
-          "markup.changed",
-          "markup.deleted",
-          "markup.heading",
-          "markup.inline.raw",
-          "markup.inserted",
-          "markup.italic",
-          "markup.list",
-          "markup.list.numbered",
-          "markup.list.unnumbered",
-          "markup.other",
-          "markup.quote",
-          "markup.raw",
-          "markup.underline",
-          "markup.underline.link",
-          "meta",
-          "meta.block",
-          "meta.cast",
-          "meta.class",
-          "meta.function",
-          "meta.function-call",
-          "meta.preprocessor",
-          "meta.return-type",
-          "meta.selector",
-          "meta.tag",
-          "meta.type.annotation",
-          "meta.type",
-          "punctuation.definition.string.begin",
-          "punctuation.definition.string.end",
-          "punctuation.separator",
-          "punctuation.separator.continuation",
-          "punctuation.terminator",
-          "storage",
-          "storage.modifier",
-          "storage.type",
-          "string",
-          "string.interpolated",
-          "string.other",
-          "string.quoted",
-          "string.quoted.double",
-          "string.quoted.other",
-          "string.quoted.single",
-          "string.quoted.triple",
-          "string.regexp",
-          "string.unquoted",
-          "strong",
-          "support",
-          "support.class",
-          "support.constant",
-          "support.function",
-          "support.other",
-          "support.type",
-          "support.type.property-name",
-          "support.variable",
-          "variable",
-          "variable.language",
-          "variable.name",
-          "variable.other",
-          "variable.other.readwrite",
-          "variable.parameter"
-        ],
-        "settings": {
-          "fontStyle": ""
-        }
+    "workbench.colorCustomizations": {
+      "[Adapta Nokto]": {
+        "scrollbar.shadow": "#ffffff0c",
+        "widget.shadow": "#ffffff0c"
       },
-    ]
-  },
-  "workbench.colorCustomizations": {
-    "[Adapta Nokto]": {
-      "scrollbar.shadow": "#ffffff0c",
-      "widget.shadow": "#ffffff0c"
+      "[Ariake Dark]": {
+        "scrollbar.shadow": "#0000000c",
+        "widget.shadow": "#0000000c"
+      },
+      "[In Bed by 7pm]": {
+        "scrollbar.shadow": "#0000000c",
+        "widget.shadow": "#0000000c"
+      },
+      "[Dracula At Night]": {
+        "scrollbar.shadow": "#0000000c",
+        "widget.shadow": "#0000000c"
+      },
+      "[Catppuccin Mocha]": {
+        "editorIndentGuide.activeBackground1": "#45475A",
+        "editorIndentGuide.background1": "#313244",
+        // "editorLineNumber.foreground": "#6C7086",
+        "editorRuler.foreground": "#313244"
+      },
+      // "gitDecoration.ignoredResourceForeground": "#949494aa",
+      // "sideBar.foreground": "#b8b8b8",
+      // "sideBar.foreground": "#9A9A9A"
     },
-    "[Ariake Dark]": {
-      "scrollbar.shadow": "#0000000c",
-      "widget.shadow": "#0000000c"
+    "window.zoomLevel": 2,
+    "git.allowForcePush": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "errorLens.fontFamily": "'Hack Nerd Font'",
+    "errorLens.gutterIconsFollowCursorOverride": false,
+    "[dockercompose]": {
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.autoIndent": "advanced"
     },
-    "[In Bed by 7pm]": {
-      "scrollbar.shadow": "#0000000c",
-      "widget.shadow": "#0000000c"
+    "files.autoSave": "onFocusChange",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticTokenColorCustomizations": {
+      "enabled": true
     },
-    "[Dracula At Night]": {
-      "scrollbar.shadow": "#0000000c",
-      "widget.shadow": "#0000000c"
+    "gopls": {
+      "ui.semanticTokens": true
     },
-    "[Catppuccin Mocha]": {
-      "editorIndentGuide.activeBackground1": "#45475A",
-      "editorIndentGuide.background1": "#313244",
-      // "editorLineNumber.foreground": "#6C7086",
-      "editorRuler.foreground": "#313244"
+    "go.toolsManagement.autoUpdate": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.compositeLiteralTypes": true,
+    "go.inlayHints.constantValues": true,
+    "go.inlayHints.functionTypeParameters": true,
+    "go.inlayHints.parameterNames": true,
+    "go.lintTool": "golangci-lint",
+    "go.lintFlags": [
+      "--fast"
+    ],
+    "go.inlayHints.rangeVariableTypes": true,
+    "go.addTags": {
+      "tags": "json",
+      "options": "json=omitempty",
+      "promptForTags": false,
+      "transform": "snakecase",
+      "template": ""
     },
-    // "gitDecoration.ignoredResourceForeground": "#949494aa",
-    // "sideBar.foreground": "#b8b8b8",
-    // "sideBar.foreground": "#9A9A9A"
-  },
-  "window.zoomLevel": 2,
-  "git.allowForcePush": true,
-  "diffEditor.ignoreTrimWhitespace": false,
-  "errorLens.fontFamily": "'Hack Nerd Font'",
-  "errorLens.gutterIconsFollowCursorOverride": false,
-  "[dockercompose]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
-    "editor.autoIndent": "advanced"
-  },
-  "files.autoSave": "onFocusChange",
-  "editor.semanticHighlighting.enabled": true,
-  "editor.semanticTokenColorCustomizations": {
-    "enabled": true
-  },
-  "gopls": {
-    "ui.semanticTokens": true
-  },
-  "go.toolsManagement.autoUpdate": true,
-  "extensions.autoUpdate": false,
-  "remote.SSH.configFile": "/home/gbi/.ssh/config",
-  "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
-  },
-  "window.customTitleBarVisibility": "auto",
-  "update.mode": "manual",
-  "terminal.integrated.defaultProfile.linux": "bash",
-  "workbench.editor.editorActionsLocation": "titleBar",
-  "workbench.iconTheme": "catppuccin-mocha",
-  "editor.smoothScrolling": true,
-  "editor.mouseWheelScrollSensitivity": 2,
-  "workbench.activityBar.location": "top",
-  "gitlens.views.worktrees.files.layout": "tree",
-  "cSpell.userWords": [
-    "healthz"
-  ],
-  "chat.commandCenter.enabled": false,
-  "[shellscript]": {
-    "editor.defaultFormatter": "foxundermoon.shell-format"
-  },
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Catppuccin Mocha",
-  /*"todohighlight.keywords": [
+    "extensions.autoUpdate": false,
+    "remote.SSH.configFile": "/home/gbi/.ssh/config",
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "window.customTitleBarVisibility": "auto",
+    "update.mode": "manual",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.editor.editorActionsLocation": "titleBar",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "workbench.activityBar.location": "top",
+    "gitlens.views.worktrees.files.layout": "tree",
+    "cSpell.userWords": [
+      "healthz"
+    ],
+    "chat.commandCenter.enabled": false,
+    "[shellscript]": {
+      "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.colorTheme": "Catppuccin Mocha",
+    /*"todohighlight.keywords": [
     {
       "text": "TODO:",
       "color": "#ffffff",
@@ -270,4 +289,4 @@
       "isWholeLine": false,
     },
   ],d*/
-}
+  }
