@@ -1,5 +1,7 @@
 source ~/.config/fish/functions/navigation.fish
 source ~/.config/fish/alias.fish
+source ~/.config/fish/env.fish
+
 
 if status is-interactive
     # Commands to run in interactive sessions can go here
@@ -51,3 +53,4 @@ set -gx EDITOR vim
 # set -g fish_color_param cyan
 
 starship init fish | source
+fzf --fish | source

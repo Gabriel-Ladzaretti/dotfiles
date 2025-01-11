@@ -54,8 +54,9 @@ alias o='obsidian'
 # abbr -a of obsidian fetch
 # abbr -a ol obsidian log --oneline -n 15
 
-# Copy to clipboard
-alias xclip='xclip -selection c'
+# Copy/Paste to clipboard
+alias pbcopy='xsel -ib'
+alias pbpaste='xsel -ob'
 
 # Tmux shortcuts
 alias tmux='tmux -u'
