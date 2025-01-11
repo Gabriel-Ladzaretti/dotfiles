@@ -75,3 +75,6 @@ alias code='code --enable-features=UseOzonePlatform,WaylandWindowDecorations --o
 # misc
 alias reload='exec fish'
 
+if test "$TERM_PROGRAM" = 'vscode'
+    alias rg 'rg --no-heading --column --hidden'
+end

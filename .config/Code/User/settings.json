@@ -244,11 +244,11 @@
     "go.inlayHints.constantValues": true,
     "go.inlayHints.functionTypeParameters": true,
     "go.inlayHints.parameterNames": true,
+    "go.inlayHints.rangeVariableTypes": true,
     "go.lintTool": "golangci-lint",
     "go.lintFlags": [
       "--fast"
     ],
-    "go.inlayHints.rangeVariableTypes": true,
     "go.addTags": {
       "tags": "json",
       "options": "json=omitempty",
