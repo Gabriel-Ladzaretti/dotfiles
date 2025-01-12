@@ -54,7 +54,7 @@ alias o='obsidian'
 # abbr -a of obsidian fetch
 # abbr -a ol obsidian log --oneline -n 15
 
-# Copy/Paste to clipboard
+# copy/paste to clipboard
 alias pbcopy='xsel -ib'
 alias pbpaste='xsel -ob'
 

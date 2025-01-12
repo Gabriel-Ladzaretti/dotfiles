@@ -278,6 +278,7 @@
     },
     "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.startupEditor": "none",
     /*"todohighlight.keywords": [
     {
       "text": "TODO:",

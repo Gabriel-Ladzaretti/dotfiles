@@ -1,6 +1,6 @@
 source ~/.config/fish/functions/navigation.fish
 source ~/.config/fish/alias.fish
-source ~/.config/fish/env.fish
+source ~/.config/fish/fzf_env.fish
 
 
 if status is-interactive

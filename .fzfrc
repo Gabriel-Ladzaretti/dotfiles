@@ -1,4 +1,4 @@
 --height 40%
 --tmux 80% 
 --border top
---walker-skip .git,node_modules,.vscode
+--walker-skip .git,node_modules,.vscode,target
