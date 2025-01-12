@@ -12,6 +12,23 @@ set COLOR_SCHEMA "
     --multi
 "
 
+set CUSTOM_THEME "
+  --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626
+  --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00
+  --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf
+  --color=border:#262626,label:#aeaeae,query:#d9d9d9
+  --border rounded
+  --preview-window border-bold
+  --prompt=\"> \"
+  --border-label=\"\"
+  --marker=\">\"
+  --pointer=\"◆\"
+  --separator=\"─\"
+  --scrollbar=\"│\"
+  --layout reverse-list
+"
+
+
 # Define options for FZF_DEFAULT_OPTS
 set -l opts "
     --walker-skip $WALKER_SKIP_OPTS
