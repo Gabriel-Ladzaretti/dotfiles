@@ -3,9 +3,19 @@
 
 set WALKER_SKIP_OPTS ".git,node_modules,target"
 
+# Modified catppuccin theme
+# https://github.com/catppuccin/fzf
+set COLOR_SCHEMA "
+    --color=spinner:#f5e0dc,hl:#f38ba8
+    --color=header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
+    --color=marker:#b4befe,prompt:#cba6f7,hl+:#f38ba8
+    --multi
+"
+
 # Define options for FZF_DEFAULT_OPTS
 set -l opts "
     --walker-skip $WALKER_SKIP_OPTS
+    --layout reverse
     --height 40%
     --tmux 80%
     --border top
