@@ -3,39 +3,23 @@
 
 set WALKER_SKIP_OPTS ".git,node_modules,target"
 
-# Modified catppuccin theme
-# https://github.com/catppuccin/fzf
-set COLOR_SCHEMA "
-    --color=spinner:#f5e0dc,hl:#f38ba8
-    --color=header:#f38ba8,info:#cba6f7,pointer:#f5e0dc
-    --color=marker:#b4befe,prompt:#cba6f7,hl+:#f38ba8
-    --multi
-"
 
-set CUSTOM_THEME "
-  --color=fg:-1,fg+:#d0d0d0,bg:-1,bg+:#262626
-  --color=hl:#5f87af,hl+:#5fd7ff,info:#afaf87,marker:#87ff00
-  --color=prompt:#d7005f,spinner:#af5fff,pointer:#af5fff,header:#87afaf
-  --color=border:#262626,label:#aeaeae,query:#d9d9d9
-  --border rounded
-  --preview-window border-bold
-  --prompt=\"> \"
-  --border-label=\"\"
-  --marker=\">\"
-  --pointer=\"◆\"
-  --separator=\"─\"
-  --scrollbar=\"│\"
-  --layout reverse-list
+set USER_THEME "
+    --color=spinner:#a6e3a1,hl:#f38ba8
+    --color=header:#f38ba8,info:#f9e2af,pointer:#f5e0dc
+    --color=marker:#b4befe,prompt:#cba6f7,hl+:#f38ba8
 "
 
 
 # Define options for FZF_DEFAULT_OPTS
 set -l opts "
+    $USER_THEME
     --walker-skip $WALKER_SKIP_OPTS
     --layout reverse
     --height 40%
     --tmux 80%
     --border top
+    --multi
 "
 set -x FZF_DEFAULT_OPTS (string join " " $opts)
 
