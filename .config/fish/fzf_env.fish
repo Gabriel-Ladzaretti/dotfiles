@@ -5,9 +5,11 @@ set WALKER_SKIP_OPTS ".git,node_modules,target"
 
 
 set USER_THEME "
-    --color=spinner:#a6e3a1,hl:#f38ba8
+    --color=spinner:#89ddff,hl:#f38ba8
     --color=header:#f38ba8,info:#f9e2af,pointer:#f5e0dc
-    --color=marker:#b4befe,prompt:#cba6f7,hl+:#f38ba8
+    --color=marker:#b4befe,prompt:#a6e3a1,hl+:#f38ba8
+    --prompt=\"❯ \"
+    --marker=◆
 "
 
 
