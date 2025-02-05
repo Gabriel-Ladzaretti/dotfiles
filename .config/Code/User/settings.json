@@ -1,9 +1,9 @@
   {
     "debug.inlineValues": "off",
     "diffEditor.experimental.useTrueInlineView": true,
-    "diffEditor.hideUnchangedRegions.enabled": true,
-    "diffEditor.renderSideBySide": true,
     "diffEditor.experimental.showMoves": true,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.hideUnchangedRegions.enabled": true,
     "editor.fontVariations": false,
     "editor.cursorSurroundingLines": 10,
     "editor.inlayHints.enabled": "on",
@@ -222,8 +222,6 @@
     "window.zoomLevel": 2,
     "git.allowForcePush": true,
     "diffEditor.ignoreTrimWhitespace": false,
-    "errorLens.fontFamily": "'Hack Nerd Font'",
-    "errorLens.gutterIconsFollowCursorOverride": false,
     "[dockercompose]": {
       "editor.insertSpaces": true,
       "editor.tabSize": 2,
@@ -268,7 +266,6 @@
     "editor.smoothScrolling": true,
     "editor.mouseWheelScrollSensitivity": 2,
     "workbench.activityBar.location": "top",
-    "gitlens.views.worktrees.files.layout": "tree",
     "cSpell.userWords": [
       "healthz"
     ],
@@ -276,9 +273,9 @@
     "[shellscript]": {
       "editor.defaultFormatter": "foxundermoon.shell-format"
     },
-    "workbench.sideBar.location": "right",
     "workbench.colorTheme": "Catppuccin Mocha",
     "workbench.startupEditor": "none",
+    "workbench.sideBar.location": "right",
     /*"todohighlight.keywords": [
     {
       "text": "TODO:",
