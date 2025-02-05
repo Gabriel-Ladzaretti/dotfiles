@@ -46,3 +46,5 @@ export EDITOR="$VISUAL"
 eval "$(starship init bash)"
 
 fish
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

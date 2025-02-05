@@ -238,7 +238,7 @@
       "ui.semanticTokens": true
     },
     "go.toolsManagement.autoUpdate": true,
-    "go.inlayHints.assignVariableTypes": true,
+    "go.inlayHints.assignVariableTypes": false,
     "go.inlayHints.compositeLiteralFields": true,
     "go.inlayHints.compositeLiteralTypes": true,
     "go.inlayHints.constantValues": true,
