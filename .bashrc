@@ -26,17 +26,6 @@ fi
 
 unset rc
 
-##-----------------------------------------------------
-## synth-shell-prompt.sh
-## if [ -f /home/gbi/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
-## 	source /home/gbi/.config/synth-shell/synth-shell-prompt.sh
-## fi
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
 export MOZ_ENABLE_WAYLAND=1
 
 ## set default editor
@@ -45,6 +34,10 @@ export EDITOR="$VISUAL"
 
 eval "$(starship init bash)"
 
-fish
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+fish

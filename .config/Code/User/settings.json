@@ -33,6 +33,7 @@
   "editor.fontWeight": "500",
   "editor.inlayHints.enabled": "on",
   "editor.inlayHints.fontSize": 14,
+  "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
   "editor.rulers": [80, 110],
@@ -66,7 +67,6 @@
             "source.ts"
           ],
           "settings": {
-            "background": "#1E1E2E",
             "foreground": "#9399B2"
           }
         }
@@ -206,6 +206,9 @@
   "gopls": {
     "ui.semanticTokens": true
   },
+  "Prettier-SQL.expressionWidth": 50,
+  "Prettier-SQL.indentStyle": "standard",
+  "Prettier-SQL.keywordCase": "upper",
   "remote.SSH.configFile": "/home/gbi/.ssh/config",
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "alacritty",
@@ -224,6 +227,12 @@
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
+      "editorInlayHint.foreground": "#cdd6f4",
+      "editorInlayHint.background": "#313244",
+      "editorInlayHint.typeForeground": "default",
+      "editorInlayHint.typeBackground": "default",
+      "editorInlayHint.parameterForeground": "default",
+      "editorInlayHint.parameterBackground": "default",
       "editorIndentGuide.activeBackground1": "#45475A",
       "editorIndentGuide.background1": "#313244",
       "editorRuler.foreground": "#313244"
@@ -232,6 +241,7 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none"
 }
