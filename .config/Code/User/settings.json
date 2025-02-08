@@ -219,6 +219,18 @@
   "terminal.integrated.fontWeightBold": 600,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.shellIntegration.enabled": true,
+  "todohighlight.keywords": [
+    {
+      "text": "TODO:",
+      "color": "#11111b",
+      "backgroundColor": "#94e2d5"
+    },
+    {
+      "text": "FIXME:",
+      "color": "#11111b",
+      "backgroundColor": "#eba0ac"
+    }
+  ],
   "update.mode": "manual",
   "window.customTitleBarVisibility": "auto",
   "window.dialogStyle": "custom",
@@ -227,14 +239,14 @@
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
-      "editorInlayHint.foreground": "#cdd6f4",
-      "editorInlayHint.background": "#313244",
-      "editorInlayHint.typeForeground": "default",
-      "editorInlayHint.typeBackground": "default",
-      "editorInlayHint.parameterForeground": "default",
-      "editorInlayHint.parameterBackground": "default",
       "editorIndentGuide.activeBackground1": "#45475A",
       "editorIndentGuide.background1": "#313244",
+      "editorInlayHint.background": "#313244",
+      "editorInlayHint.foreground": "#cdd6f4",
+      "editorInlayHint.parameterBackground": "default",
+      "editorInlayHint.parameterForeground": "default",
+      "editorInlayHint.typeBackground": "default",
+      "editorInlayHint.typeForeground": "default",
       "editorRuler.foreground": "#313244"
     }
   },
