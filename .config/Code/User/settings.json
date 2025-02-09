@@ -36,7 +36,10 @@
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.rulers": [80, 110],
+  "editor.rulers": [
+    80,
+    110
+  ],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -200,7 +203,9 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": ["--fast"],
+  "go.lintFlags": [
+    "--fast"
+  ],
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
@@ -221,14 +226,14 @@
   "terminal.integrated.shellIntegration.enabled": true,
   "todohighlight.keywords": [
     {
-      "text": "TODO:",
+      "backgroundColor": "#94e2d5",
       "color": "#11111b",
-      "backgroundColor": "#94e2d5"
+      "text": "TODO:"
     },
     {
-      "text": "FIXME:",
+      "backgroundColor": "#eba0ac",
       "color": "#11111b",
-      "backgroundColor": "#eba0ac"
+      "text": "FIXME:"
     }
   ],
   "update.mode": "manual",
