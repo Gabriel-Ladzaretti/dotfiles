@@ -87,7 +87,7 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "shift+f",
+        "key": "ctrl+shift+f",
         "command": "workbench.action.terminal.focusFind",
         "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
     },
