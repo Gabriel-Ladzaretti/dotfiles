@@ -36,10 +36,7 @@
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.rulers": [
-    80,
-    110
-  ],
+  "editor.rulers": [80, 110],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -203,9 +200,7 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": [
-    "--fast"
-  ],
+  "go.lintFlags": ["--fast"],
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
@@ -231,9 +226,39 @@
       "text": "TODO:"
     },
     {
+      "backgroundColor": "#74c7ec",
+      "color": "#11111b",
+      "text": "TODO1:"
+    },
+    {
+      "backgroundColor": "#a6e3a1",
+      "color": "#11111b",
+      "text": "TODO2:"
+    },
+    {
+      "backgroundColor": "#b4befe",
+      "color": "#11111b",
+      "text": "TODO3:"
+    },
+    {
       "backgroundColor": "#eba0ac",
       "color": "#11111b",
       "text": "FIXME:"
+    },
+    {
+      "backgroundColor": "#fab387",
+      "color": "#11111b",
+      "text": "FIXME1:"
+    },
+    {
+      "backgroundColor": "#f9e2af",
+      "color": "#11111b",
+      "text": "FIXME2:"
+    },
+    {
+      "backgroundColor": "#f5c2e7",
+      "color": "#11111b",
+      "text": "FIXME3:"
     }
   ],
   "update.mode": "manual",
@@ -261,5 +286,8 @@
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
