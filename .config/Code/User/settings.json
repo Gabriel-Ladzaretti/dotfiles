@@ -20,6 +20,9 @@
   "[shellscript]": {
     "editor.defaultFormatter": "foxundermoon.shell-format"
   },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "chat.commandCenter.enabled": false,
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
@@ -39,7 +42,10 @@
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.rulers": [80, 110],
+  "editor.rulers": [
+    80,
+    110
+  ],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -203,7 +209,9 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": ["--fast"],
+  "go.lintFlags": [
+    "--fast"
+  ],
   "go.lintTool": "golangci-lint",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
@@ -289,8 +297,5 @@
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  "workbench.tree.enableStickyScroll": true
 }
