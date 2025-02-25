@@ -5,10 +5,12 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+USER_PATH="$HOME/.local/bin:$HOME/bin:$HOME/go/bin"
+
 # User specific environment
-if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
+if ! [[ "$PATH" =~ "$USER_PATH:" ]]
 then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+    PATH="$USER_PATH:$PATH"
 fi
 export PATH
 

@@ -32,3 +32,7 @@ dconf-load-gnome-extensions:
 
 .PHONY: dconf-load
 dconf-load: dconf-load-terminal dconf-load-gnome-extensions
+
+.PHONY: go-install
+go-install:
+	go install github.com/jesseduffield/lazygit@latest
