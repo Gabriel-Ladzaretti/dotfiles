@@ -32,7 +32,3 @@ dconf-load-gnome-extensions:
 
 .PHONY: dconf-load
 dconf-load: dconf-load-terminal dconf-load-gnome-extensions
-
-.PHONY: fastfetch_install
-fastfetch_install:
-	sudo ./fastfetch_install.sh

@@ -1,3 +1,5 @@
+# Personal Linux Dotfiles
+
 ## Tracking `dotfiles` directly with Git[^1][^2]
 The "bare repository and alias method" popularized on [Ask Hacker News: What do you use to manage your dotfiles?](https://news.ycombinator.com/item?id=11071754), takes just three commands to set up:
 
