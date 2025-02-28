@@ -230,6 +230,7 @@
   "terminal.integrated.fontWeightBold": 600,
   "terminal.integrated.lineHeight": 1,
   "terminal.integrated.shellIntegration.enabled": true,
+  "testing.gutterEnabled": true,
   "todohighlight.keywords": [
     {
       "backgroundColor": "#94e2d5",
@@ -288,7 +289,13 @@
       "editorInlayHint.parameterForeground": "default",
       "editorInlayHint.typeBackground": "default",
       "editorInlayHint.typeForeground": "default",
-      "editorRuler.foreground": "#313244"
+      "editorRuler.foreground": "#313244",
+      "testing.iconFailed": "#f38ba8",
+      "testing.iconPassed": "#a6e3a1",
+      "testing.iconQueued": "#f9e2af",
+      "testing.message.error.badgeBackground": "#f2cdcd",
+      "testing.message.error.badgeBorder": "#313244",
+      "testing.message.error.badgeForeground": "#11111b"
     }
   },
   "workbench.colorTheme": "Catppuccin Mocha",

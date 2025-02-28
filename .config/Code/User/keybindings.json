@@ -111,4 +111,12 @@
         "key": "shift+0",
         "when": "debugState == 'stopped'"
     },
+    {
+        "command": "explorer.newFile",
+        "key": "ctrl+n"
+    },
+    {
+        "command": "explorer.newFolder",
+        "key": "ctrl+shift+n"
+    }
 ]
