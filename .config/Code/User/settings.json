@@ -274,9 +274,7 @@
     }
   ],
   "update.mode": "manual",
-  "window.customTitleBarVisibility": "auto",
   "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
   "window.zoomLevel": 2,
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
@@ -304,5 +302,8 @@
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "cSpell.userWords": [
+    "unmarshalling"
+  ]
 }
