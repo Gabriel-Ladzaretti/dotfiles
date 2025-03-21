@@ -304,6 +304,8 @@
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
   "cSpell.userWords": [
+    "golangci",
+    "Ladzaretti",
     "unmarshalling"
   ]
 }
