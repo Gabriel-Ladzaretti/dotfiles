@@ -50,6 +50,32 @@ Plug 'junegunn/fzf.vim'
 call plug#end()
 
 " =======================================
+" Functions
+" =======================================
+
+function! CopyToClipboard()
+  " Save the current unnamed register.
+  let l:save_reg = @a
+  " Reselect the last visual area and yank it into register s.
+  normal! gv"sy
+  " Send the contents of register s to xsel (using -ib for input to the clipboard).
+  call system("pbcopy", @s)
+  " Restore the unnamed register.
+  let @a = l:save_reg
+endfunction
+
+function! PasteFromClipboard()
+  " Save <leader>c :<C-u>call CopyTo the current content of register a.
+  let l:save_reg = @a
+  " Load the clipboard content from xsel into register a.
+  let @a = system("pbpaste")
+  " Paste the content of register a at the cursor.
+  execute "normal! \"ap"
+  " Restore the original content of register a.
+  let @a = l:save_reg
+endfunction
+
+" =======================================
 " Key Mappings
 " =======================================
 
@@ -58,8 +84,8 @@ let mapleader = " "
 
 augroup xsel
   autocmd!
-  vnoremap <silent> <leader>c :silent w !xsel -sb >/dev/null 2>&1<CR>
-  nnoremap <silent> <leader>v :r !xsel -ob<CR>
+  vnoremap <silent> <leader>c :<C-u>call CopyToClipboard()<CR>
+  nnoremap <silent> <leader>v :call PasteFromClipboard()<CR>
 augroup END
 
 " Disable arrow keys
