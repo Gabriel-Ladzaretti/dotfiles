@@ -54,21 +54,21 @@ call plug#end()
 " =======================================
 
 function! CopyToClipboard()
-  " Save the current unnamed register.
+  " Save the content of register a.
   let l:save_reg = @a
   " Reselect the last visual area and yank it into register s.
   normal! gv"sy
-  " Send the contents of register s to xsel (using -ib for input to the clipboard).
-  call system("pbcopy", @s)
-  " Restore the unnamed register.
+  " Send the contents of register s to xsel.
+  call system("xsel -ib", @s)
+  " Restore the original content of register a.
   let @a = l:save_reg
 endfunction
 
 function! PasteFromClipboard()
-  " Save <leader>c :<C-u>call CopyTo the current content of register a.
+  " Save the content of register a.
   let l:save_reg = @a
   " Load the clipboard content from xsel into register a.
-  let @a = system("pbpaste")
+  let @a = system("xsel -ob")
   " Paste the content of register a at the cursor.
   execute "normal! \"ap"
   " Restore the original content of register a.
