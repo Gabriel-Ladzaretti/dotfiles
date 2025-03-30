@@ -24,6 +24,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "chat.commandCenter.enabled": false,
+  "cSpell.userWords": ["golangci", "Ladzaretti", "stdlib", "unmarshalling"],
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
   "diffEditor.experimental.showMoves": true,
@@ -42,10 +43,7 @@
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.rulers": [
-    80,
-    110
-  ],
+  "editor.rulers": [80, 110],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -202,6 +200,10 @@
     "template": "",
     "transform": "snakecase"
   },
+  "go.alternateTools": {
+    "customFormatter": "golangci-lint"
+  },
+  "go.formatFlags": ["fmt", "--stdin"],
   "go.inlayHints.assignVariableTypes": false,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
@@ -209,10 +211,9 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": [
-    "--fast"
-  ],
+  "go.lintFlags": ["--fast-only"],
   "go.lintTool": "golangci-lint",
+  "go.formatTool": "custom",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
     "ui.semanticTokens": true
@@ -302,11 +303,5 @@
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "cSpell.userWords": [
-    "golangci",
-    "Ladzaretti",
-    "stdlib",
-    "unmarshalling"
-  ]
+  "workbench.tree.enableStickyScroll": true
 }
