@@ -24,7 +24,13 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "chat.commandCenter.enabled": false,
-  "cSpell.userWords": ["golangci", "Ladzaretti", "stdlib", "unmarshalling"],
+  "cSpell.userWords": [
+    "golangci",
+    "Ladzaretti",
+    "nolint",
+    "stdlib",
+    "unmarshalling"
+  ],
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
   "diffEditor.experimental.showMoves": true,
@@ -213,7 +219,7 @@
   "go.inlayHints.rangeVariableTypes": true,
   "go.lintFlags": ["--fast-only"],
   "go.lintTool": "golangci-lint",
-  "go.formatTool": "custom",
+  // "go.formatTool": "custom", // until golangci-lint v2 is supported in go-vscode
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
     "ui.semanticTokens": true
