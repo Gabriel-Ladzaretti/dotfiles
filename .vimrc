@@ -58,8 +58,8 @@ function! CopyToClipboard()
   let l:save_reg = @a
   " Reselect the last visual area and yank it into register s.
   normal! gv"sy
-  " Send the contents of register s to xsel.
-  call system("xsel -ib", @s)
+  " Send the contents of register s to wl-clipboard.
+  call system("wl-copy", @s)
   " Restore the original content of register a.
   let @a = l:save_reg
 endfunction
@@ -67,8 +67,8 @@ endfunction
 function! PasteFromClipboard()
   " Save the content of register a.
   let l:save_reg = @a
-  " Load the clipboard content from xsel into register a.
-  let @a = system("xsel -ob")
+  " Load the clipboard content from wl-clipboard into register a.
+  let @a = system("wl-paste")
   " Paste the content of register a at the cursor.
   execute "normal! \"ap"
   " Restore the original content of register a.
