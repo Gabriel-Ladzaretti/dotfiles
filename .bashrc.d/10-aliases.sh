@@ -15,3 +15,5 @@ alias tmuxx='tmux new-session -A -s'
 alias g="git"
 
 alias v='vim'
+alias k='kubectl'
+

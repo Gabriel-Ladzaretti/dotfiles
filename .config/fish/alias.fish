@@ -80,3 +80,7 @@ if test "$TERM_PROGRAM" = 'vscode'
     alias rg 'rg --no-heading --column'
     alias rgh 'rg --no-heading --column --hidden'
 end
+
+# kubectl
+alias k='kubectl'
+
