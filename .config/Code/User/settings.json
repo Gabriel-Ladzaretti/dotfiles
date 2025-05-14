@@ -198,6 +198,16 @@
   "explorer.autoReveal": true,
   "extensions.autoUpdate": false,
   "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/Thumbs.db": true
+  },
+  "files.watcherExclude": {
+    "**/vendor/**": true
+  },
   "git.allowForcePush": true,
   "go.addTags": {
     "options": "json=omitempty",
@@ -223,11 +233,18 @@
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
     "ui.semanticTokens": true
+    // "ui.navigation.symbolScope": "workspace"
   },
   "Prettier-SQL.expressionWidth": 50,
   "Prettier-SQL.indentStyle": "standard",
   "Prettier-SQL.keywordCase": "upper",
   "remote.SSH.configFile": "/home/gbi/.ssh/config",
+  "search.exclude": {
+    "**/*.code-search": true,
+    "**/bower_components": true,
+    "**/node_modules": true,
+    "**/vendor": true
+  },
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "alacritty",
   "terminal.integrated.defaultProfile.linux": "fish",
