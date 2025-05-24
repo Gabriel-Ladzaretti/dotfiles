@@ -11,12 +11,12 @@ $ dotfiles config status.showUntrackedFiles no
 
 Then any file within the home folder can be versioned with normal commands like:
 ```bash
-$ config status
-$ config add .vimrc
-$ config commit -m "Add vimrc"
-$ config add .config/redshift.conf
-$ config commit -m "Add redshift config"
-$ config push
+$ dotfiles status
+$ dotfiles add .vimrc
+$ dotfiles commit -m "Add vimrc"
+$ dotfiles add .config/redshift.conf
+$ dotfiles commit -m "Add redshift config"
+$ dotfiles push
 ```
 
 ## Restoring dotfiles on a new system
