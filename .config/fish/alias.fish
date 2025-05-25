@@ -54,6 +54,8 @@ alias o='obsidian'
 # abbr -a of obsidian fetch
 # abbr -a ol obsidian log --oneline -n 15
 
+alias vault_git='/usr/bin/git --git-dir="$HOME/.vltd/" --work-tree="$HOME"'
+
 # copy/paste to clipboard
 alias pbcopy='xsel -ib'
 alias pbpaste='xsel -ob'
