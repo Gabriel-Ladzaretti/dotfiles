@@ -6,7 +6,7 @@ copy_cmd="wl-copy"
 paste_cmd="wl-paste"
 
 [pipeline]
-find_pipe_cmd=["sh", "-c" ,"fzf --header-lines=1 | awk '{print $1}' | xargs -r /home/gbi/GitHub/Gabriel-Ladzaretti/vlt-cli/bin/vlt show -c --id"]
+find_pipe_cmd=["sh", "-c" ,"fzf --header-lines=1 | awk '{print $1}' | xargs -r vlt show -c --id"]
 
 [hooks]
 post_login_cmd=["fish","-c","vault_git pull"]
