@@ -1,4 +1,5 @@
 source ~/.config/fish/functions/navigation.fish
+source ~/.config/fish/functions/vlt.fish
 source ~/.config/fish/alias.fish
 source ~/.config/fish/fzf_env.fish
 
