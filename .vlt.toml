@@ -1,5 +1,6 @@
 [vault]
 session_duration='2m'
+max_history_snapshots=1
 
 [clipboard]
 copy_cmd=['wl-copy']
