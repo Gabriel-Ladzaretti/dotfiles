@@ -23,7 +23,9 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "window.commandCenter": true,
   "chat.commandCenter.enabled": false,
+  "chat.agent.enabled": false,
   "cSpell.userWords": [
     "golangci",
     "Ladzaretti",
@@ -209,6 +211,7 @@
     "**/vendor/**": true
   },
   "git.allowForcePush": true,
+  "git.blame.editorDecoration.enabled": false,
   "go.addTags": {
     "options": "json=omitempty",
     "promptForTags": false,
@@ -238,6 +241,7 @@
   "Prettier-SQL.expressionWidth": 50,
   "Prettier-SQL.indentStyle": "standard",
   "Prettier-SQL.keywordCase": "upper",
+  "remote.defaultExtensionsIfInstalledLocally": [],
   "remote.SSH.configFile": "/home/gbi/.ssh/config",
   "search.exclude": {
     "**/*.code-search": true,
@@ -245,6 +249,7 @@
     "**/node_modules": true,
     "**/vendor": true
   },
+  "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.external.linuxExec": "alacritty",
   "terminal.integrated.defaultProfile.linux": "fish",
@@ -326,7 +331,5 @@
   "workbench.list.smoothScrolling": true,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "remote.defaultExtensionsIfInstalledLocally": [],
-  "git.blame.editorDecoration.enabled": false
+  "workbench.tree.enableStickyScroll": true
 }

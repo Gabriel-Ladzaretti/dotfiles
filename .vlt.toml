@@ -2,8 +2,8 @@
 session_duration='2m'
 
 [clipboard]
-copy_cmd="wl-copy"
-paste_cmd="wl-paste"
+copy_cmd=["wl-copy"]
+paste_cmd=["wl-paste","--no-newline"]
 
 [hooks]
 post_login_cmd=["fish","-c","vault_git pull"]
