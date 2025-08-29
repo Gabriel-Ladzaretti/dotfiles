@@ -1,6 +1,12 @@
-
 [terminal.shell]
 program = "/usr/bin/bash"
+
+[cursor]
+blink_interval=500
+blink_timeout=0
+
+[cursor.style]
+blinking="Always"
 
 [window]
 decorations = "Full"
