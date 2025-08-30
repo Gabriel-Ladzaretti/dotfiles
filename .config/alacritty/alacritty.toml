@@ -4,10 +4,11 @@ program = "/usr/bin/bash"
 [cursor]
 blink_interval=500
 blink_timeout=0
-unfocused_hollow=false
+unfocused_hollow=true
 
 [cursor.style]
 blinking="Always"
+shape="Block"
 
 [window]
 decorations = "Full"
