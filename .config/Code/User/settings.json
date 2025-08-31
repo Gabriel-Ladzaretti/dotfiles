@@ -1,4 +1,7 @@
 {
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[dockercompose]": {
     "editor.autoIndent": "advanced",
     "editor.insertSpaces": true,
@@ -23,9 +26,9 @@
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.commandCenter": true,
-  "chat.commandCenter.enabled": false,
   "chat.agent.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "cSpell.useGitignore": false,
   "cSpell.userWords": [
     "golangci",
     "Ladzaretti",
@@ -257,8 +260,9 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeight": 500,
   "terminal.integrated.fontWeightBold": 600,
-  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.tabs.enabled": false,
   "testing.gutterEnabled": true,
   "todohighlight.keywords": [
     {
@@ -282,6 +286,26 @@
       "text": "TODO3:"
     },
     {
+      "backgroundColor": "#f38ba8",
+      "color": "#11111b",
+      "text": "TODO4:"
+    },
+    {
+      "backgroundColor": "#cba6f7",
+      "color": "#11111b",
+      "text": "TODO5:"
+    },
+    {
+      "backgroundColor": "#fab387",
+      "color": "#11111b",
+      "text": "TODO6:"
+    },
+    {
+      "backgroundColor": "#f9e2af",
+      "color": "#11111b",
+      "text": "TODO7:"
+    },
+    {
       "backgroundColor": "#eba0ac",
       "color": "#11111b",
       "text": "FIXME:"
@@ -300,9 +324,30 @@
       "backgroundColor": "#f5c2e7",
       "color": "#11111b",
       "text": "FIXME3:"
+    },
+    {
+      "backgroundColor": "#f38ba8",
+      "color": "#11111b",
+      "text": "FIXME4:"
+    },
+    {
+      "backgroundColor": "#cba6f7",
+      "color": "#11111b",
+      "text": "FIXME5:"
+    },
+    {
+      "backgroundColor": "#94e2d5",
+      "color": "#11111b",
+      "text": "FIXME6:"
+    },
+    {
+      "backgroundColor": "#a6e3a1",
+      "color": "#11111b",
+      "text": "FIXME7:"
     }
   ],
   "update.mode": "manual",
+  "window.commandCenter": true,
   "window.dialogStyle": "custom",
   "window.zoomLevel": 2,
   "workbench.activityBar.location": "top",
