@@ -347,8 +347,8 @@
     }
   ],
   "update.mode": "manual",
-  "window.commandCenter": true,
   "window.dialogStyle": "custom",
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": 2,
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
@@ -362,6 +362,8 @@
       "editorInlayHint.typeBackground": "default",
       "editorInlayHint.typeForeground": "default",
       "editorRuler.foreground": "#313244",
+      "statusBarItem.remoteBackground": "#11111b",
+      "statusBarItem.remoteForeground": "#cdd6f4",
       "testing.iconFailed": "#f38ba8",
       "testing.iconPassed": "#a6e3a1",
       "testing.iconQueued": "#f9e2af",
@@ -371,10 +373,14 @@
     }
   },
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.iconTheme": "catppuccin-mocha",
+  "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
+  "workbench.navigationControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle"
 }
