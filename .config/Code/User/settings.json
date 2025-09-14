@@ -23,6 +23,9 @@
   "[shellscript]": {
     "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
   },
+  "[typescript]": {
+    "editor.semanticHighlighting.enabled": true
+  },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -38,11 +41,13 @@
   ],
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
+  "debug.openDebug": "openOnDebugBreak",
   "diffEditor.experimental.showMoves": true,
   "diffEditor.experimental.useTrueInlineView": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
+  "docker.extension.enableComposeLanguageServer": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorSurroundingLines": 10,
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
@@ -54,10 +59,7 @@
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
   "editor.mouseWheelScrollSensitivity": 2,
-  "editor.rulers": [
-    80,
-    110
-  ],
+  "editor.rulers": [80, 110],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -89,6 +91,12 @@
           ],
           "settings": {
             "foreground": "#9399B2"
+          }
+        },
+        {
+          "scope": ["variable.language.this"],
+          "settings": {
+            "foreground": "#f5c2e7"
           }
         }
       ]
@@ -204,6 +212,10 @@
     ]
   },
   "explorer.autoReveal": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.spec.ts, ${capture}.test.ts"
+  },
   "extensions.autoUpdate": false,
   "files.autoSave": "onFocusChange",
   "files.exclude": {
@@ -228,10 +240,7 @@
   "go.alternateTools": {
     "customFormatter": "golangci-lint"
   },
-  "go.formatFlags": [
-    "fmt",
-    "--stdin"
-  ],
+  "go.formatFlags": ["fmt", "--stdin"],
   "go.inlayHints.assignVariableTypes": false,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
@@ -239,9 +248,7 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": [
-    "--fast-only"
-  ],
+  "go.lintFlags": ["--fast-only"],
   "go.lintTool": "golangci-lint",
   // "go.formatTool": "custom", // until golangci-lint v2 is supported in go-vscode
   "go.toolsManagement.autoUpdate": true,
@@ -249,6 +256,7 @@
     "ui.semanticTokens": true
     // "ui.navigation.symbolScope": "workspace"
   },
+  "makefile.configureOnOpen": false,
   "Prettier-SQL.expressionWidth": 50,
   "Prettier-SQL.indentStyle": "standard",
   "Prettier-SQL.keywordCase": "upper",
@@ -270,6 +278,8 @@
   "terminal.integrated.fontWeightBold": 600,
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.integrated.stickyScroll.enabled": false,
+  "terminal.integrated.tabs.enabled": false,
   "testing.gutterEnabled": true,
   "todohighlight.keywords": [
     {
@@ -354,7 +364,7 @@
     }
   ],
   "update.mode": "manual",
-  "window.commandCenter": false,
+  "window.commandCenter": false, // red
   "window.dialogStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
@@ -371,6 +381,7 @@
       "editorInlayHint.typeBackground": "default",
       "editorInlayHint.typeForeground": "default",
       "editorRuler.foreground": "#313244",
+      // "statusBar.debuggingBackground": "#b4befe",
       "statusBarItem.remoteBackground": "#11111b",
       "statusBarItem.remoteForeground": "#cdd6f4",
       "testing.iconFailed": "#f38ba8",
@@ -384,13 +395,12 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabIndex": true,
-  "workbench.editor.showTabs": "none",
+  "workbench.editor.showTabs": "multiple",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "terminal.integrated.tabs.enabled": false
+  "workbench.tree.enableStickyScroll": true
 }
