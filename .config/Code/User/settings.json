@@ -24,6 +24,7 @@
     "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
   },
   "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.semanticHighlighting.enabled": true
   },
   "[yaml]": {
@@ -58,7 +59,6 @@
   "editor.inlayHints.fontSize": 14,
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
-  "editor.mouseWheelScrollSensitivity": 2,
   "editor.rulers": [80, 110],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
@@ -217,6 +217,9 @@
     "*.ts": "${capture}.spec.ts, ${capture}.test.ts"
   },
   "extensions.autoUpdate": false,
+  "files.associations": {
+    "*.env": "properties"
+  },
   "files.autoSave": "onFocusChange",
   "files.exclude": {
     "**/.DS_Store": true,
@@ -230,6 +233,8 @@
   },
   "git.allowForcePush": true,
   "git.blame.editorDecoration.enabled": false,
+  "git.blame.statusBarItem.enabled": true,
+  "git.untrackedChanges": "separate",
   "go.addTags": {
     "options": "json=omitempty",
     "promptForTags": false,
@@ -262,6 +267,11 @@
   "Prettier-SQL.keywordCase": "upper",
   "remote.defaultExtensionsIfInstalledLocally": [],
   "remote.SSH.configFile": "/home/gbi/.ssh/config",
+  "scm.diffDecorationsGutterPattern": {
+    "added": false,
+    "modified": false
+  },
+  "scm.diffDecorationsGutterWidth": 4,
   "search.exclude": {
     "**/*.code-search": true,
     "**/bower_components": true,
@@ -364,7 +374,7 @@
     }
   ],
   "update.mode": "manual",
-  "window.commandCenter": false, // red
+  "window.commandCenter": false,
   "window.dialogStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.titleBarStyle": "custom",
@@ -387,7 +397,7 @@
       "testing.iconFailed": "#f38ba8",
       "testing.iconPassed": "#a6e3a1",
       "testing.iconQueued": "#f9e2af",
-      "testing.message.error.badgeBackground": "#f2cdcd",
+      "testing.message.error.badgeBackground": "#f5c2e7",
       "testing.message.error.badgeBorder": "#313244",
       "testing.message.error.badgeForeground": "#11111b"
     }
@@ -395,12 +405,13 @@
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabIndex": true,
-  "workbench.editor.showTabs": "multiple",
+  "workbench.editor.showTabs": "none",
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "editor.fastScrollSensitivity": 3
 }
