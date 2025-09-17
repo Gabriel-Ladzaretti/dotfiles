@@ -51,6 +51,7 @@
   "docker.extension.enableComposeLanguageServer": false,
   "editor.bracketPairColorization.enabled": false,
   "editor.cursorSurroundingLines": 10,
+  "editor.fastScrollSensitivity": 3,
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
   "editor.fontSize": 14,
   "editor.fontVariations": false,
@@ -218,6 +219,7 @@
   },
   "extensions.autoUpdate": false,
   "files.associations": {
+    ".env.*": "properties",
     "*.env": "properties"
   },
   "files.autoSave": "onFocusChange",
@@ -289,7 +291,6 @@
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.shellIntegration.enabled": true,
   "terminal.integrated.stickyScroll.enabled": false,
-  "terminal.integrated.tabs.enabled": false,
   "testing.gutterEnabled": true,
   "todohighlight.keywords": [
     {
@@ -410,8 +411,8 @@
   "workbench.layoutControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "editor.fastScrollSensitivity": 3
+  "workbench.tree.enableStickyScroll": true
 }
