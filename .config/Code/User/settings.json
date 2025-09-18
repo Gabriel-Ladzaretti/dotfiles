@@ -55,7 +55,7 @@
   "editor.fontFamily": "'JetBrainsMono Nerd Font'",
   "editor.fontSize": 14,
   "editor.fontVariations": false,
-  "editor.fontWeight": "400",
+  "editor.fontWeight": "normal",
   "editor.inlayHints.enabled": "on",
   "editor.inlayHints.fontSize": 14,
   "editor.inlayHints.padding": true,
@@ -446,5 +446,9 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.tabs.enabled": false
 }
