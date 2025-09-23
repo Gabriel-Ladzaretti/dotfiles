@@ -346,6 +346,31 @@
       "text": "TODO7:"
     },
     {
+      "backgroundColor": "#89b4fa",
+      "color": "#11111b",
+      "text": "TODO8:"
+    },
+    {
+      "backgroundColor": "#89dceb",
+      "color": "#11111b",
+      "text": "TODO9:"
+    },
+    {
+      "backgroundColor": "#f5e0dc",
+      "color": "#11111b",
+      "text": "TODO10:"
+    },
+    {
+      "backgroundColor": "#f2cdcd",
+      "color": "#11111b",
+      "text": "TODO11:"
+    },
+    {
+      "backgroundColor": "#bac2de",
+      "color": "#11111b",
+      "text": "TODO12:"
+    },
+    {
       "backgroundColor": "#eba0ac",
       "color": "#11111b",
       "text": "FIXME:"
