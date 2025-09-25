@@ -39,8 +39,8 @@ video-x-resolution=1920
 video-y-resolution=1080
 
 [org/gnome/control-center]
-last-panel='background'
-window-state=(980, 640, false)
+last-panel='power'
+window-state=(1132, 808, false)
 
 [org/gnome/desktop/background]
 color-shading-type='solid'
@@ -86,6 +86,9 @@ two-finger-scrolling-enabled=true
 [org/gnome/desktop/search-providers]
 sort-order=['org.gnome.Settings.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Nautilus.desktop']
 
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
 [org/gnome/desktop/wm/keybindings]
 move-to-center=['<Super><Control>Home']
 show-desktop=['<Alt><Super>h']
@@ -102,7 +105,7 @@ default-zoom-level='extra-large'
 default-zoom-level='small'
 
 [org/gnome/nautilus/preferences]
-default-folder-viewer='list-view'
+default-folder-viewer='icon-view'
 migrated-gtk-settings=true
 search-filter-time-type='last_modified'
 search-view='list-view'
@@ -117,9 +120,14 @@ night-light-enabled=true
 night-light-schedule-automatic=false
 night-light-schedule-from=19.0
 
+[org/gnome/settings-daemon/plugins/power]
+power-saver-profile-on-low-battery=true
+
 [org/gnome/shell]
+app-picker-layout=[{'org.gnome.Calendar.desktop': <{'position': <0>}>, 'org.gnome.Contacts.desktop': <{'position': <1>}>, 'org.gnome.Weather.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.Maps.desktop': <{'position': <4>}>, 'org.gnome.Music.desktop': <{'position': <5>}>, 'simple-scan.desktop': <{'position': <6>}>, 'org.gnome.Settings.desktop': <{'position': <7>}>, 'org.gnome.Boxes.desktop': <{'position': <8>}>, 'org.gnome.Totem.desktop': <{'position': <9>}>, 'org.gnome.Snapshot.desktop': <{'position': <10>}>, 'org.gnome.Characters.desktop': <{'position': <11>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <12>}>, 'org.gnome.Extensions.desktop': <{'position': <13>}>, 'fish.desktop': <{'position': <14>}>, 'org.gnome.Tour.desktop': <{'position': <15>}>, 'org.gnome.Cheese.desktop': <{'position': <16>}>, 'com.cloudflare.WarpTaskbar.desktop': <{'position': <17>}>, 'jetbrains-toolbox.desktop': <{'position': <18>}>, 'jetbrains-datagrip.desktop': <{'position': <19>}>}, {'htop.desktop': <{'position': <0>}>, 'im-config.desktop': <{'position': <1>}>, 'org.libreoffice.LibreOffice.desktop': <{'position': <2>}>, 'org.libreoffice.LibreOffice.base.desktop': <{'position': <3>}>, 'org.libreoffice.LibreOffice.calc.desktop': <{'position': <4>}>, 'org.libreoffice.LibreOffice.draw.desktop': <{'position': <5>}>, 'org.libreoffice.LibreOffice.impress.desktop': <{'position': <6>}>, 'org.libreoffice.LibreOffice.math.desktop': <{'position': <7>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <8>}>, 'org.gnome.SoundRecorder.desktop': <{'position': <9>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <10>}>, 'synaptic.desktop': <{'position': <11>}>, 'transmission-gtk.desktop': <{'position': <12>}>, 'org.libreoffice.LibreOffice.writer.desktop': <{'position': <13>}>, 'org.gnome.font-viewer.desktop': <{'position': <14>}>, 'jetbrains-goland.desktop': <{'position': <15>}>, 'org.gnome.Loupe.desktop': <{'position': <16>}>, 'display-im7.q16.desktop': <{'position': <17>}>, 'nm-connection-editor.desktop': <{'position': <18>}>, 'org.gnome.Connections.desktop': <{'position': <19>}>, 'org.gnome.baobab.desktop': <{'position': <20>}>, 'org.gnome.DiskUtility.desktop': <{'position': <21>}>, 'Alacritty.desktop': <{'position': <22>}>, 'com.rafaelmardojai.Blanket.desktop': <{'position': <23>}>}, {'jetbrains-idea.desktop': <{'position': <0>}>, 'org.freedesktop.MalcontentControl.desktop': <{'position': <1>}>, 'remote-viewer.desktop': <{'position': <2>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <3>}>, 'virt-manager.desktop': <{'position': <4>}>, 'jetbrains-webstorm.desktop': <{'position': <5>}>, 'org.gnome.Evince.desktop': <{'position': <6>}>, 'org.gnome.FileRoller.desktop': <{'position': <7>}>, 'com.github.tchx84.Flatseal.desktop': <{'position': <8>}>, 'org.gnome.Logs.desktop': <{'position': <9>}>, 'org.gnome.seahorse.Application.desktop': <{'position': <10>}>, 'org.gnome.Terminal.desktop': <{'position': <11>}>, 'org.gnome.tweaks.desktop': <{'position': <12>}>, 'btop.desktop': <{'position': <13>}>, 'org.chromium.Chromium.desktop': <{'position': <14>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <15>}>, 'org.mozilla.firefox.desktop': <{'position': <16>}>, 'org.gimp.GIMP.desktop': <{'position': <17>}>, 'org.kde.krita.desktop': <{'position': <18>}>, 'md.obsidian.Obsidian.desktop': <{'position': <19>}>, 'slack.desktop': <{'position': <20>}>, 'org.gnome.Solanum.desktop': <{'position': <21>}>, 'code.desktop': <{'position': <22>}>, 'org.videolan.VLC.desktop': <{'position': <23>}>}, {'Zoom.desktop': <{'position': <0>}>}]
 disabled-extensions=@as []
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'caffeine@patapon.info', 'clipboard-indicator@tudmotu.com', 'tactile@lundal.io', 'Vitals@CoreCoding.com']
+favorite-apps=['org.mozilla.firefox.desktop', 'org.chromium.Chromium.desktop', 'md.obsidian.Obsidian.desktop', 'Alacritty.desktop', 'org.gnome.Nautilus.desktop', 'org.gimp.GIMP.desktop', 'org.kde.krita.desktop', 'slack.desktop', 'code.desktop', 'jetbrains-goland.desktop', 'jetbrains-webstorm.desktop', 'jetbrains-idea.desktop', 'org.gnome.TextEditor.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.gnome.Settings.desktop', 'com.mattjakeman.ExtensionManager.desktop']
 
 [org/gnome/shell/app-switcher]
 current-workspace-only=false
@@ -138,7 +146,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=4
+indicator-position-max=5
 show-indicator='always'
 toggle-shortcut=['<Super>c']
 user-enabled=false
@@ -191,7 +199,7 @@ layout-4-row-2=1
 layout-4-row-3=0
 layout-4-row-4=0
 maximize=true
-monitor-0-layout=4
+monitor-0-layout=1
 row-1=0
 row-2=0
 show-settings=['<Shift><Super>Return']
