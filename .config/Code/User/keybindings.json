@@ -1,122 +1,130 @@
 // Place your key bindings in this file to override the defaults
 [
-    {
-        "command": "editor.action.copyLinesDownAction",
-        "key": "alt+shift+down",
-        "when": "editorTextFocus"
-    },
-    {
-        "command": "editor.action.copyLinesUpAction",
-        "key": "alt+shift+up",
-        "when": "editorTextFocus"
-    },
-    {
-        "command": "editor.action.formatDocument",
-        "key": "shift+alt+f",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "command": "-editor.action.formatDocument",
-        "key": "ctrl+shift+i",
-        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
-    },
-    {
-        "command": "editor.action.formatDocument.none",
-        "key": "shift+alt+f",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "command": "-editor.action.formatDocument.none",
-        "key": "ctrl+shift+i",
-        "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
-    },
-    {
-        "command": "editor.action.transformToUppercase",
-        "key": "shift+alt+u"
-    },
-    {
-        "command": "editor.action.transformToLowercase",
-        "key": "shift+alt+l"
-    },
-    {
-        "command": "workbench.action.debug.stepInto",
-        "key": "f7",
-        "when": "debugState != 'inactive'"
-    },
-    {
-        "command": "-workbench.action.debug.stepInto",
-        "key": "f11",
-        "when": "debugState != 'inactive'"
-    },
-    {
-        "command": "workbench.action.debug.continue",
-        "key": "f9",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "-workbench.action.debug.continue",
-        "key": "f5",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "workbench.action.debug.stepOut",
-        "key": "shift+f7",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "-workbench.action.debug.stepOut",
-        "key": "shift+f11",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "workbench.action.debug.stepOver",
-        "key": "f8",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "-workbench.action.debug.stepOver",
-        "key": "f10",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "workbench.action.moveEditorToNewWindow",
-        "key": "ctrl+k n"
-    },
-    {
-        "command": "workbench.action.terminal.toggleTerminal",
-        "key": "ctrl+[Backquote]"
-    },
-    {
-        "command": "workbench.action.terminal.focusFind",
-        "key": "ctrl+shift+f",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
-    },
-    {
-        "command": "-workbench.action.terminal.focusFind",
-        "key": "ctrl+f",
-        "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
-    },
-    {
-        "command": "workbench.action.terminal.resizePaneUp",
-        "key": "alt+up",
-        "when": "terminalFocus"
-    },
-    {
-        "command": "workbench.action.terminal.resizePaneDown",
-        "key": "alt+down",
-        "when": "terminalFocus"
-    },
-    {
-        "command": "workbench.action.debug.callStackTop",
-        "key": "shift+0",
-        "when": "debugState == 'stopped'"
-    },
-    {
-        "command": "explorer.newFile",
-        "key": "ctrl+n"
-    },
-    {
-        "command": "explorer.newFolder",
-        "key": "ctrl+shift+n"
-    }
+  {
+    "command": "editor.action.copyLinesDownAction",
+    "key": "alt+shift+down",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.copyLinesUpAction",
+    "key": "alt+shift+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "editor.action.formatDocument",
+    "key": "shift+alt+f",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "command": "-editor.action.formatDocument",
+    "key": "ctrl+shift+i",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+  },
+  {
+    "command": "editor.action.formatDocument.none",
+    "key": "shift+alt+f",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "command": "-editor.action.formatDocument.none",
+    "key": "ctrl+shift+i",
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+  },
+  {
+    "command": "editor.action.transformToUppercase",
+    "key": "shift+alt+u"
+  },
+  {
+    "command": "editor.action.transformToLowercase",
+    "key": "shift+alt+l"
+  },
+  {
+    "command": "workbench.action.debug.stepInto",
+    "key": "f7",
+    "when": "debugState != 'inactive'"
+  },
+  {
+    "command": "-workbench.action.debug.stepInto",
+    "key": "f11",
+    "when": "debugState != 'inactive'"
+  },
+  {
+    "command": "workbench.action.debug.continue",
+    "key": "f9",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "-workbench.action.debug.continue",
+    "key": "f5",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "workbench.action.debug.stepOut",
+    "key": "shift+f7",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "-workbench.action.debug.stepOut",
+    "key": "shift+f11",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "workbench.action.debug.stepOver",
+    "key": "f8",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "-workbench.action.debug.stepOver",
+    "key": "f10",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "workbench.action.moveEditorToNewWindow",
+    "key": "ctrl+k n"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+[Backquote]"
+  },
+  {
+    "command": "workbench.action.terminal.focusFind",
+    "key": "ctrl+shift+f",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "command": "-workbench.action.terminal.focusFind",
+    "key": "ctrl+f",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+  },
+  {
+    "command": "workbench.action.terminal.resizePaneUp",
+    "key": "alt+up",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.terminal.resizePaneDown",
+    "key": "alt+down",
+    "when": "terminalFocus"
+  },
+  {
+    "command": "workbench.action.debug.callStackTop",
+    "key": "shift+0",
+    "when": "debugState == 'stopped'"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "ctrl+n"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "ctrl+shift+n"
+  },
+  {
+    "key": "ctrl+'",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
+  }
 ]
