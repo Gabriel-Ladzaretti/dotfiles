@@ -114,7 +114,7 @@ panel-id='world'
 size=(448, 415)
 
 [org/gnome/control-center]
-last-panel='background'
+last-panel='power'
 window-state=(1004, 1051, false)
 
 [org/gnome/desktop/a11y]
@@ -129,11 +129,25 @@ screen-reader-enabled=false
 high-contrast=false
 
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'YaST']
+folder-children=['Utilities', 'YaST', '7809d1b2-8dab-4666-bc71-1aef0de73afc', '62b236e5-b24d-4af4-ad2e-973354f84db4', '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81']
+
+[org/gnome/desktop/app-folders/folders/483d0c00-47ee-4ab1-ae99-ccf96f8d3c81]
+apps=['org.gnome.Characters.desktop', 'org.gnome.font-viewer.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop']
+name='Accessories'
+
+[org/gnome/desktop/app-folders/folders/62b236e5-b24d-4af4-ad2e-973354f84db4]
+apps=['com.mattjakeman.ExtensionManager.desktop', 'org.gnome.tweaks.desktop', 'ca.desrt.dconf-editor.desktop']
+name='System'
+translate=false
+
+[org/gnome/desktop/app-folders/folders/7809d1b2-8dab-4666-bc71-1aef0de73afc]
+apps=['libreoffice-impress.desktop', 'libreoffice-calc.desktop', 'libreoffice-writer.desktop']
+name='Office'
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['org.gnome.Connections.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Terminal.desktop', 'org.freedesktop.GnomeAbrt.desktop']
+apps=['org.gnome.Connections.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Terminal.desktop', 'org.freedesktop.GnomeAbrt.desktop', 'org.gnome.SystemMonitor.desktop']
 categories=['X-GNOME-Utilities']
+excluded-apps=['org.gnome.tweaks.desktop']
 name='X-GNOME-Utilities.directory'
 translate=true
 
@@ -562,12 +576,12 @@ sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'org.gnome.TextEditor.desktop': <{'position': <2>}>, 'org.gnome.Weather.desktop': <{'position': <3>}>, 'org.gnome.clocks.desktop': <{'position': <4>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <5>}>, 'org.gnome.Maps.desktop': <{'position': <6>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <7>}>, 'libreoffice-calc.desktop': <{'position': <8>}>, 'libreoffice-impress.desktop': <{'position': <9>}>, 'yelp.desktop': <{'position': <10>}>, 'Utilities': <{'position': <11>}>, 'org.gnome.Loupe.desktop': <{'position': <12>}>, 'org.gnome.Snapshot.desktop': <{'position': <13>}>, 'simple-scan.desktop': <{'position': <14>}>, 'org.gnome.Boxes.desktop': <{'position': <15>}>, 'org.gnome.Tour.desktop': <{'position': <16>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <17>}>, 'info.smplayer.SMPlayer.desktop': <{'position': <18>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <19>}>, 'org.gnome.Characters.desktop': <{'position': <20>}>, 'org.gnome.font-viewer.desktop': <{'position': <21>}>, 'org.freedesktop.MalcontentControl.desktop': <{'position': <22>}>}, {'Command & Conquer Red Alert 2 and Yuris Revenge.desktop': <{'position': <0>}>, 'Half-Life.desktop': <{'position': <1>}>, 'Black Mesa.desktop': <{'position': <2>}>, 'Half-Life 2.desktop': <{'position': <3>}>, 'Brotato.desktop': <{'position': <4>}>, 'Vampire Survivors.desktop': <{'position': <5>}>, 'Hades.desktop': <{'position': <6>}>, 'Slay the Spire.desktop': <{'position': <7>}>, 'Dorfromantik.desktop': <{'position': <8>}>, 'Balatro.desktop': <{'position': <9>}>, 'Hotline Miami.desktop': <{'position': <10>}>, 'Hotline Miami 2 Wrong Number.desktop': <{'position': <11>}>, 'Mini Metro.desktop': <{'position': <12>}>, 'Mini Motorways.desktop': <{'position': <13>}>, 'The Witcher 3 Wild Hunt.desktop': <{'position': <14>}>}]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'org.gnome.TextEditor.desktop': <{'position': <2>}>, 'org.gnome.Weather.desktop': <{'position': <3>}>, 'org.gnome.clocks.desktop': <{'position': <4>}>, 'org.gnome.Maps.desktop': <{'position': <5>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <6>}>, '7809d1b2-8dab-4666-bc71-1aef0de73afc': <{'position': <7>}>, '62b236e5-b24d-4af4-ad2e-973354f84db4': <{'position': <8>}>, 'Utilities': <{'position': <9>}>, 'org.gnome.Loupe.desktop': <{'position': <10>}>, 'org.gnome.Snapshot.desktop': <{'position': <11>}>, 'simple-scan.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <14>}>, '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81': <{'position': <15>}>, 'org.freedesktop.MalcontentControl.desktop': <{'position': <16>}>, 'org.gnome.Settings.desktop': <{'position': <17>}>, 'org.videolan.VLC.desktop': <{'position': <18>}>, 'info.smplayer.SMPlayer.desktop': <{'position': <19>}>, 'org.gnome.Software.desktop': <{'position': <20>}>, 'org.gnome.Calculator.desktop': <{'position': <21>}>, 'org.gnome.Solanum.desktop': <{'position': <22>}>}, {'Command & Conquer Red Alert 2 and Yuris Revenge.desktop': <{'position': <0>}>, 'Half-Life.desktop': <{'position': <1>}>, 'Black Mesa.desktop': <{'position': <2>}>, 'Half-Life 2.desktop': <{'position': <3>}>, 'Brotato.desktop': <{'position': <4>}>, 'Vampire Survivors.desktop': <{'position': <5>}>, 'Hades.desktop': <{'position': <6>}>, 'Slay the Spire.desktop': <{'position': <7>}>, 'Dorfromantik.desktop': <{'position': <8>}>, 'Balatro.desktop': <{'position': <9>}>, 'Hotline Miami.desktop': <{'position': <10>}>, 'Hotline Miami 2 Wrong Number.desktop': <{'position': <11>}>, 'Mini Metro.desktop': <{'position': <12>}>, 'Mini Motorways.desktop': <{'position': <13>}>, 'The Witcher 3 Wild Hunt.desktop': <{'position': <14>}>}]
 command-history=['lg', 'r', 'restart']
 disable-user-extensions=false
-disabled-extensions=['impatience@gfxmonk.net', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'unblank@sun.wxg@gmail.com', 'mediacontrols@cliffniff.github.com', 'gTile@vibou', 'tiling-assistant@leleat-on-github', 'just-perfection-desktop@just-perfection', 'window-list@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'background-logo@fedorahosted.org']
-enabled-extensions=['caffeine@patapon.info', 'Vitals@CoreCoding.com', 'tactile@lundal.io', 'clipboard-indicator@tudmotu.com', 'appindicatorsupport@rgcjonas.gmail.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
-favorite-apps=['org.mozilla.firefox.desktop', 'org.chromium.Chromium.desktop', 'md.obsidian.Obsidian.desktop', 'Alacritty.desktop', 'org.gnome.Nautilus.desktop', 'org.gimp.GIMP.desktop', 'org.kde.krita.desktop', 'org.gnome.Calculator.desktop', 'code.desktop', 'io.dbeaver.DBeaverCommunity.desktop', 'org.videolan.VLC.desktop', 'libreoffice-writer.desktop', 'btop.desktop', 'com.rafaelmardojai.Blanket.desktop', 'org.gnome.Solanum.desktop', 'com.valvesoftware.Steam.desktop', 'org.gnome.Software.desktop', 'com.mattjakeman.ExtensionManager.desktop', 'org.gnome.Settings.desktop']
+disabled-extensions=['impatience@gfxmonk.net', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'unblank@sun.wxg@gmail.com', 'mediacontrols@cliffniff.github.com', 'gTile@vibou', 'tiling-assistant@leleat-on-github', 'just-perfection-desktop@just-perfection', 'window-list@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'background-logo@fedorahosted.org', 'places-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['caffeine@patapon.info', 'Vitals@CoreCoding.com', 'tactile@lundal.io', 'clipboard-indicator@tudmotu.com', 'appindicatorsupport@rgcjonas.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['org.mozilla.firefox.desktop', 'org.chromium.Chromium.desktop', 'md.obsidian.Obsidian.desktop', 'Alacritty.desktop', 'org.gnome.Nautilus.desktop', 'org.gimp.GIMP.desktop', 'org.kde.krita.desktop', 'code.desktop', 'io.dbeaver.DBeaverCommunity.desktop', 'btop.desktop', 'com.rafaelmardojai.Blanket.desktop', 'com.valvesoftware.Steam.desktop']
 last-selected-power-profile='performance'
 remember-mount-password=false
 welcome-dialog-last-shown-version='44.0'
@@ -586,7 +600,7 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=2
+indicator-position-max=5
 show-indicator='always'
 toggle-shortcut=['<Super>c']
 toggle-state=false
@@ -691,10 +705,10 @@ check-timestamp=int64 1746560114
 download-updates=false
 download-updates-notify=false
 first-run=false
-flatpak-purge-timestamp=int64 1758736557
-install-timestamp=int64 1750083540
+flatpak-purge-timestamp=int64 1759215485
+install-timestamp=int64 1758828545
 packagekit-historical-updates-timestamp=uint64 1730227973
-update-notification-timestamp=int64 1758643305
+update-notification-timestamp=int64 1759087830
 upgrade-notification-timestamp=int64 1744832550
 
 [org/gnome/system/location]
