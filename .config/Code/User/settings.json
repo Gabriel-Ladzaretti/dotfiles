@@ -422,6 +422,7 @@
   "window.menuBarVisibility": "toggle",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
   "window.titleBarStyle": "custom",
+  "window.titleSeparator": " | ",
   "window.zoomLevel": 2,
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
@@ -478,5 +479,6 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "window.newWindowProfile": "Linux"
 }
