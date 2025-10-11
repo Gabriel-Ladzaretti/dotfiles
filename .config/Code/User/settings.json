@@ -3,14 +3,17 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[dockercompose]": {
-    "editor.insertSpaces": true,
-    "editor.tabSize": 2,
     "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
     "editor.quickSuggestions": {
-      "other": true,
       "comments": false,
+      "other": true,
       "strings": true
     },
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[go]": {
@@ -254,9 +257,10 @@
     "transform": "snakecase"
   },
   "go.alternateTools": {
-    "customFormatter": "golangci-lint"
+    "customFormatter": "golangci-lint-v2"
   },
   "go.formatFlags": ["fmt", "--stdin"],
+  "go.formatTool": "custom",
   "go.inlayHints.assignVariableTypes": false,
   "go.inlayHints.compositeLiteralFields": true,
   "go.inlayHints.compositeLiteralTypes": true,
@@ -264,9 +268,8 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": ["--fast-only"],
-  "go.lintTool": "golangci-lint",
-  // "go.formatTool": "custom", // until golangci-lint v2 is supported in go-vscode
+  "go.lintFlags": ["--path-mode=abs", "--fast-only"],
+  "go.lintTool": "golangci-lint-v2",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
     "ui.semanticTokens": true
@@ -426,6 +429,7 @@
   "window.commandCenter": false,
   "window.dialogStyle": "custom",
   "window.menuBarVisibility": "toggle",
+  "window.newWindowProfile": "Linux",
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " | ",
@@ -485,9 +489,5 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "window.newWindowProfile": "Linux",
-  "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
-  }
+  "workbench.tree.enableStickyScroll": true
 }
