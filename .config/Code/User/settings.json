@@ -272,7 +272,8 @@
   "go.lintTool": "golangci-lint-v2",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
-    "ui.semanticTokens": true
+    "ui.semanticTokens": true,
+    "ui.navigation.symbolScope": "workspace"
     // "ui.navigation.symbolScope": "workspace"
   },
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
@@ -437,6 +438,12 @@
   "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
+      "editorGutter.addedBackground": "#a6e3a1",
+      "editorGutter.addedSecondaryBackground": "#94e2d5",
+      "editorGutter.deletedBackground": "#f38ba8",
+      "editorGutter.deletedSecondaryBackground": "#cba6f7",
+      "editorGutter.modifiedBackground": "#f9e2af",
+      "editorGutter.modifiedSecondaryBackground": "#f5c2e7",
       "editorIndentGuide.activeBackground1": "#45475A",
       "editorIndentGuide.background1": "#313244",
       "editorInlayHint.background": "#313244",

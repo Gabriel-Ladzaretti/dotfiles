@@ -120,15 +120,19 @@
     "key": "ctrl+shift+n"
   },
   {
-    "key": "ctrl+'",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+'"
   },
   {
-    "key": "ctrl+alt+z",
-    "command": "workbench.action.toggleSidebarVisibility"
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+alt+z"
   },
   {
-    "key": "ctrl+b",
-    "command": "-workbench.action.toggleSidebarVisibility"
+    "command": "-workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+b"
+  },
+  {
+    "command": "workbench.action.debug.selectandstart",
+    "key": "ctrl+shift+f5"
   }
 ]
