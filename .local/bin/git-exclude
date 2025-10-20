@@ -1,0 +1,31 @@
+#/bin/bash
+
+usage() {
+  cat <<EOF
+Usage: git exclude [PATHS...]
+
+Append one or more paths or patterns to the local .git/info/exclude file.
+This behaves like a private .gitignore for your repository.
+
+Options:
+  -h, --help    Show this help message and exit.
+
+Examples:
+  git exclude build/
+  git exclude dist logs/*.log
+EOF
+}
+
+if [[ $# -eq 0 || "$1" == "-h" || "$1" == "--help" ]]; then
+  usage
+  exit 0
+fi
+
+exclude_file=".git/info/exclude"
+
+if [[ ! -f "$exclude_file" ]]; then
+  echo "must run from the git repository root (no $exclude_file found)" >&2
+  exit 1
+fi
+
+printf '%s\n' "$@" >> "$exclude_file"
