@@ -12,10 +12,11 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=2
+indicator-position-max=4
 show-indicator='always'
+toggle-shortcut=['<Super>c']
 toggle-state=false
-user-enabled=false
+user-enabled=true
 
 [clipboard-indicator]
 cache-only-favorites=false
@@ -65,7 +66,7 @@ layout-4-row-2=1
 layout-4-row-3=1
 layout-4-row-4=0
 maximize=true
-monitor-0-layout=2
+monitor-0-layout=1
 row-1=0
 row-2=0
 show-settings=['<Shift><Super>Return']
