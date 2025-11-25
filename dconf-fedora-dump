@@ -11,6 +11,9 @@ font='Hack Nerd Font Mono 15'
 use-system-font=false
 visible-name='Default'
 
+[desktop/ibus/panel/emoji]
+favorites=['궭']
+
 [org/fedorahosted/background-logo-extension]
 logo-always-visible=true
 logo-border=uint32 82
@@ -129,7 +132,11 @@ screen-reader-enabled=false
 high-contrast=false
 
 [org/gnome/desktop/app-folders]
-folder-children=['Utilities', 'YaST', '7809d1b2-8dab-4666-bc71-1aef0de73afc', '62b236e5-b24d-4af4-ad2e-973354f84db4', '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81']
+folder-children=['Utilities', 'YaST', '7809d1b2-8dab-4666-bc71-1aef0de73afc', '62b236e5-b24d-4af4-ad2e-973354f84db4', '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81', '45fd76c8-fa8a-4a2d-832d-13d4e941db0a']
+
+[org/gnome/desktop/app-folders/folders/45fd76c8-fa8a-4a2d-832d-13d4e941db0a]
+apps=['org.videolan.VLC.desktop', 'info.smplayer.SMPlayer.desktop', 'org.gnome.Rhythmbox3.desktop']
+name='Sound & Video'
 
 [org/gnome/desktop/app-folders/folders/483d0c00-47ee-4ab1-ae99-ccf96f8d3c81]
 apps=['org.gnome.Characters.desktop', 'org.gnome.font-viewer.desktop', 'yelp.desktop', 'org.gnome.Tour.desktop']
@@ -145,7 +152,7 @@ apps=['libreoffice-impress.desktop', 'libreoffice-calc.desktop', 'libreoffice-wr
 name='Office'
 
 [org/gnome/desktop/app-folders/folders/Utilities]
-apps=['org.gnome.Connections.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Terminal.desktop', 'org.freedesktop.GnomeAbrt.desktop', 'org.gnome.SystemMonitor.desktop']
+apps=['org.gnome.Connections.desktop', 'btop.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Logs.desktop', 'org.gnome.Evince.desktop', 'org.gnome.Terminal.desktop', 'org.freedesktop.GnomeAbrt.desktop', 'org.gnome.SystemMonitor.desktop', 'org.freedesktop.MalcontentControl.desktop']
 categories=['X-GNOME-Utilities']
 excluded-apps=['org.gnome.tweaks.desktop']
 name='X-GNOME-Utilities.directory'
@@ -357,7 +364,7 @@ switch-windows-backward=['<Shift><Alt>Tab']
 [org/gnome/desktop/wm/preferences]
 action-double-click-titlebar='toggle-maximize'
 action-middle-click-titlebar='toggle-maximize-vertically'
-button-layout='appmenu:minimize,maximize,close'
+button-layout='appmenu:close'
 focus-mode='click'
 titlebar-font='Cantarell Bold 12'
 
@@ -372,7 +379,7 @@ document-directory=@ms nothing
 [org/gnome/evince/default]
 continuous=true
 dual-page=false
-dual-page-odd-left=true
+dual-page-odd-left=false
 enable-spellchecking=true
 fullscreen=false
 inverted-colors=false
@@ -380,8 +387,8 @@ show-sidebar=true
 sidebar-page='thumbnails'
 sidebar-size=148
 sizing-mode='free'
-window-ratio=(2.8910958950134051, 1.6688641033864282)
-zoom=1.0
+window-ratio=(2.5334317827549433, 1.6688442807934434)
+zoom=0.80584490740740722
 
 [org/gnome/evolution-data-server]
 migrated=true
@@ -507,7 +514,7 @@ ignore-phase2-ca-cert=false
 window-maximized=true
 
 [org/gnome/portal/filechooser/code]
-last-folder-path='/home/gbi/GitHub/Gabriel-Ladzaretti/ragx-cli'
+last-folder-path='/home/gbi/GitHub/Gabriel-Ladzaretti/home-lab-deploy'
 
 [org/gnome/portal/filechooser/com.rafaelmardojai.Blanket]
 last-folder-path='/home/gbi/Music'
@@ -516,7 +523,7 @@ last-folder-path='/home/gbi/Music'
 last-folder-path='/run/media/gbi/Data/steam'
 
 [org/gnome/portal/filechooser/io.dbeaver.DBeaverCommunity]
-last-folder-path='/tmp'
+last-folder-path='/home/gbi/.cache/.execd.d'
 
 [org/gnome/portal/filechooser/md.obsidian.Obsidian]
 last-folder-path='/home/gbi/GitHub/Gabriel-Ladzaretti/obsidian/General Vault'
@@ -540,7 +547,7 @@ last-folder-path='/home/gbi/Documents/Portfolio'
 last-folder-path='/home/gbi/Documents/Peter'
 
 [org/gnome/portal/filechooser/org.mozilla.firefox]
-last-folder-path='/home/gbi/Documents'
+last-folder-path='/home/gbi/Downloads'
 
 [org/gnome/rhythmbox]
 position=(26, 23)
@@ -576,12 +583,12 @@ sleep-inactive-ac-timeout=3600
 sleep-inactive-ac-type='nothing'
 
 [org/gnome/shell]
-app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'org.gnome.TextEditor.desktop': <{'position': <2>}>, 'org.gnome.Weather.desktop': <{'position': <3>}>, 'org.gnome.clocks.desktop': <{'position': <4>}>, 'org.gnome.Maps.desktop': <{'position': <5>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <6>}>, '7809d1b2-8dab-4666-bc71-1aef0de73afc': <{'position': <7>}>, '62b236e5-b24d-4af4-ad2e-973354f84db4': <{'position': <8>}>, 'Utilities': <{'position': <9>}>, 'org.gnome.Loupe.desktop': <{'position': <10>}>, 'org.gnome.Snapshot.desktop': <{'position': <11>}>, 'simple-scan.desktop': <{'position': <12>}>, 'org.gnome.Boxes.desktop': <{'position': <13>}>, 'org.gnome.Rhythmbox3.desktop': <{'position': <14>}>, '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81': <{'position': <15>}>, 'org.freedesktop.MalcontentControl.desktop': <{'position': <16>}>, 'org.gnome.Settings.desktop': <{'position': <17>}>, 'org.videolan.VLC.desktop': <{'position': <18>}>, 'info.smplayer.SMPlayer.desktop': <{'position': <19>}>, 'org.gnome.Software.desktop': <{'position': <20>}>, 'org.gnome.Calculator.desktop': <{'position': <21>}>, 'org.gnome.Solanum.desktop': <{'position': <22>}>}, {'Command & Conquer Red Alert 2 and Yuris Revenge.desktop': <{'position': <0>}>, 'Half-Life.desktop': <{'position': <1>}>, 'Black Mesa.desktop': <{'position': <2>}>, 'Half-Life 2.desktop': <{'position': <3>}>, 'Brotato.desktop': <{'position': <4>}>, 'Vampire Survivors.desktop': <{'position': <5>}>, 'Hades.desktop': <{'position': <6>}>, 'Slay the Spire.desktop': <{'position': <7>}>, 'Dorfromantik.desktop': <{'position': <8>}>, 'Balatro.desktop': <{'position': <9>}>, 'Hotline Miami.desktop': <{'position': <10>}>, 'Hotline Miami 2 Wrong Number.desktop': <{'position': <11>}>, 'Mini Metro.desktop': <{'position': <12>}>, 'Mini Motorways.desktop': <{'position': <13>}>, 'The Witcher 3 Wild Hunt.desktop': <{'position': <14>}>}]
+app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Calendar.desktop': <{'position': <1>}>, 'org.gnome.TextEditor.desktop': <{'position': <2>}>, 'org.chromium.Chromium.desktop': <{'position': <3>}>, 'org.gnome.Weather.desktop': <{'position': <4>}>, 'org.gnome.clocks.desktop': <{'position': <5>}>, 'org.gnome.Maps.desktop': <{'position': <6>}>, 'org.fedoraproject.MediaWriter.desktop': <{'position': <7>}>, '7809d1b2-8dab-4666-bc71-1aef0de73afc': <{'position': <8>}>, '62b236e5-b24d-4af4-ad2e-973354f84db4': <{'position': <9>}>, 'Utilities': <{'position': <10>}>, 'org.gnome.Loupe.desktop': <{'position': <11>}>, 'org.gnome.Snapshot.desktop': <{'position': <12>}>, 'simple-scan.desktop': <{'position': <13>}>, 'org.gnome.Boxes.desktop': <{'position': <14>}>, '483d0c00-47ee-4ab1-ae99-ccf96f8d3c81': <{'position': <15>}>, 'org.gimp.GIMP.desktop': <{'position': <16>}>, '45fd76c8-fa8a-4a2d-832d-13d4e941db0a': <{'position': <17>}>, 'org.gnome.Software.desktop': <{'position': <18>}>, 'org.gnome.Calculator.desktop': <{'position': <19>}>, 'com.rafaelmardojai.Blanket.desktop': <{'position': <20>}>, 'org.gnome.Solanum.desktop': <{'position': <21>}>}, {'Command & Conquer Red Alert 2 and Yuris Revenge.desktop': <{'position': <0>}>, 'Half-Life.desktop': <{'position': <1>}>, 'Black Mesa.desktop': <{'position': <2>}>, 'Half-Life 2.desktop': <{'position': <3>}>, 'Brotato.desktop': <{'position': <4>}>, 'Vampire Survivors.desktop': <{'position': <5>}>, 'Hades.desktop': <{'position': <6>}>, 'Slay the Spire.desktop': <{'position': <7>}>, 'Dorfromantik.desktop': <{'position': <8>}>, 'Balatro.desktop': <{'position': <9>}>, 'Hotline Miami.desktop': <{'position': <10>}>, 'Hotline Miami 2 Wrong Number.desktop': <{'position': <11>}>, 'Mini Metro.desktop': <{'position': <12>}>, 'Mini Motorways.desktop': <{'position': <13>}>, 'The Witcher 3 Wild Hunt.desktop': <{'position': <14>}>}]
 command-history=['lg', 'r', 'restart']
 disable-user-extensions=false
 disabled-extensions=['impatience@gfxmonk.net', 'ding@rastersoft.com', 'blur-my-shell@aunetx', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'unblank@sun.wxg@gmail.com', 'mediacontrols@cliffniff.github.com', 'gTile@vibou', 'tiling-assistant@leleat-on-github', 'just-perfection-desktop@just-perfection', 'window-list@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'background-logo@fedorahosted.org', 'places-menu@gnome-shell-extensions.gcampax.github.com']
 enabled-extensions=['caffeine@patapon.info', 'Vitals@CoreCoding.com', 'tactile@lundal.io', 'clipboard-indicator@tudmotu.com', 'appindicatorsupport@rgcjonas.gmail.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']
-favorite-apps=['org.mozilla.firefox.desktop', 'org.chromium.Chromium.desktop', 'md.obsidian.Obsidian.desktop', 'Alacritty.desktop', 'org.gnome.Nautilus.desktop', 'org.gimp.GIMP.desktop', 'org.kde.krita.desktop', 'code.desktop', 'io.dbeaver.DBeaverCommunity.desktop', 'btop.desktop', 'com.rafaelmardojai.Blanket.desktop', 'com.valvesoftware.Steam.desktop']
+favorite-apps=['org.mozilla.firefox.desktop', 'code.desktop', 'Alacritty.desktop', 'md.obsidian.Obsidian.desktop', 'org.gnome.Nautilus.desktop', 'org.kde.krita.desktop', 'io.dbeaver.DBeaverCommunity.desktop', 'com.valvesoftware.Steam.desktop', 'org.gnome.Settings.desktop']
 last-selected-power-profile='performance'
 remember-mount-password=false
 welcome-dialog-last-shown-version='44.0'
@@ -600,11 +607,11 @@ countdown-timer=0
 duration-timer=2
 indicator-position=0
 indicator-position-index=0
-indicator-position-max=5
+indicator-position-max=4
 show-indicator='always'
 toggle-shortcut=['<Super>c']
 toggle-state=false
-user-enabled=false
+user-enabled=true
 
 [org/gnome/shell/extensions/clipboard-indicator]
 cache-only-favorites=false
@@ -701,15 +708,15 @@ document-type='photo'
 
 [org/gnome/software]
 allow-updates=true
-check-timestamp=int64 1746560114
+check-timestamp=int64 1762939545
 download-updates=false
 download-updates-notify=false
 first-run=false
-flatpak-purge-timestamp=int64 1759215485
-install-timestamp=int64 1758828545
+flatpak-purge-timestamp=int64 1762846768
+install-timestamp=int64 1761547779
 packagekit-historical-updates-timestamp=uint64 1730227973
-update-notification-timestamp=int64 1759087830
-upgrade-notification-timestamp=int64 1744832550
+update-notification-timestamp=int64 1761663861
+upgrade-notification-timestamp=int64 1762606383
 
 [org/gnome/system/location]
 enabled=false
