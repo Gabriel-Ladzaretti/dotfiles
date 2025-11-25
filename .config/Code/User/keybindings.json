@@ -134,5 +134,15 @@
   {
     "command": "workbench.action.debug.selectandstart",
     "key": "ctrl+shift+f5"
+  },
+  {
+    "command": "multiDiffEditor.goToNextChange",
+    "key": "f3",
+    "when": "activeEditor == 'multiDiffEditor'"
+  },
+  {
+    "command": "multiDiffEditor.goToPreviousChange",
+    "key": "shift+f3",
+    "when": "activeEditor == 'multiDiffEditor'"
   }
 ]
