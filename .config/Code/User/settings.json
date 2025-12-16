@@ -20,6 +20,9 @@
     "editor.semanticHighlighting.enabled": true,
     "editor.tabSize": 8
   },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -43,6 +46,12 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "chat.agent.enabled": false,
+  "chat.disableAIFeatures": true,
+  "cSpell.enabledNotifications": {
+    "Average Word Length too Long": false,
+    "Lines too Long": false,
+    "Maximum Word Length Exceeded": false
+  },
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
     "golangci",
@@ -71,7 +80,10 @@
   "editor.inlayHints.fontSize": 14,
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
-  "editor.rulers": [80, 110],
+  "editor.rulers": [
+    80,
+    110
+  ],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -106,7 +118,9 @@
           }
         },
         {
-          "scope": ["variable.language.this"],
+          "scope": [
+            "variable.language.this"
+          ],
           "settings": {
             "foreground": "#f5c2e7"
           }
@@ -258,7 +272,10 @@
   "go.alternateTools": {
     "customFormatter": "golangci-lint-v2"
   },
-  "go.formatFlags": ["fmt", "--stdin"],
+  "go.formatFlags": [
+    "fmt",
+    "--stdin"
+  ],
   "go.formatTool": "custom",
   "go.inlayHints.assignVariableTypes": false,
   "go.inlayHints.compositeLiteralFields": true,
@@ -267,13 +284,16 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": ["--path-mode=abs", "--fast-only"],
+  "go.lintFlags": [
+    "--path-mode=abs",
+    "--fast-only"
+  ],
   "go.lintTool": "golangci-lint-v2",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
-    "ui.semanticTokens": true,
-    "ui.navigation.symbolScope": "workspace"
+    "ui.navigation.symbolScope": "workspace",
     // "ui.navigation.symbolScope": "workspace"
+    "ui.semanticTokens": true
   },
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
@@ -485,6 +505,7 @@
     }
   },
   "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabIndex": true,
   "workbench.editor.showTabs": "none",
   "workbench.iconTheme": "catppuccin-mocha",
@@ -494,15 +515,5 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "chat.disableAIFeatures": true,
-  "cSpell.enabledNotifications": {
-    "Average Word Length too Long": false,
-    "Lines too Long": false,
-    "Maximum Word Length Exceeded": false
-  },
-  "workbench.editor.editorActionsLocation": "hidden"
+  "workbench.tree.enableStickyScroll": true
 }
