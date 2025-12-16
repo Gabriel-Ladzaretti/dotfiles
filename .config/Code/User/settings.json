@@ -43,7 +43,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "chat.agent.enabled": false,
-  "chat.commandCenter.enabled": false,
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
     "golangci",
@@ -499,5 +498,6 @@
   "workbench.tree.enableStickyScroll": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "chat.disableAIFeatures": true
 }
