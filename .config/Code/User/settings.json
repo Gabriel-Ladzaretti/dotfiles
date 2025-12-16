@@ -485,7 +485,6 @@
     }
   },
   "workbench.colorTheme": "Catppuccin Mocha",
-  "workbench.editor.editorActionsLocation": "hidden",
   "workbench.editor.showTabIndex": true,
   "workbench.editor.showTabs": "none",
   "workbench.iconTheme": "catppuccin-mocha",
@@ -499,5 +498,11 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "chat.disableAIFeatures": true
+  "chat.disableAIFeatures": true,
+  "cSpell.enabledNotifications": {
+    "Average Word Length too Long": false,
+    "Lines too Long": false,
+    "Maximum Word Length Exceeded": false
+  },
+  "workbench.editor.editorActionsLocation": "hidden"
 }
