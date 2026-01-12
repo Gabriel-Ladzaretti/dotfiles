@@ -1,0 +1,14 @@
+approval_policy = "on-request"
+
+sandbox_mode = "read-only"
+
+[shell_environment_policy]
+include_only = ["PATH", "HOME", "USER", "SHELL", "LANG", "LC_ALL", "TERM"]
+
+[profiles.cmd]
+sandbox_mode = "workspace-write"
+
+[profiles.net]
+[sandbox_workspace_write]
+network_access = true
+
