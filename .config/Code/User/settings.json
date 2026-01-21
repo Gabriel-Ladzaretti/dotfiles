@@ -54,6 +54,7 @@
   },
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
+    "envconfig",
     "golangci",
     "Ladzaretti",
     "nolint",
@@ -80,10 +81,7 @@
   "editor.inlayHints.fontSize": 14,
   "editor.inlayHints.padding": true,
   "editor.lineHeight": 1.8,
-  "editor.rulers": [
-    80,
-    110
-  ],
+  "editor.rulers": [80, 110],
   "editor.semanticHighlighting.enabled": true,
   "editor.semanticTokenColorCustomizations": {
     "[Catppuccin Mocha]": {
@@ -118,9 +116,7 @@
           }
         },
         {
-          "scope": [
-            "variable.language.this"
-          ],
+          "scope": ["variable.language.this"],
           "settings": {
             "foreground": "#f5c2e7"
           }
@@ -272,10 +268,7 @@
   "go.alternateTools": {
     "customFormatter": "golangci-lint-v2"
   },
-  "go.formatFlags": [
-    "fmt",
-    "--stdin"
-  ],
+  "go.formatFlags": ["fmt", "--stdin"],
   "go.formatTool": "custom",
   "go.inlayHints.assignVariableTypes": false,
   "go.inlayHints.compositeLiteralFields": true,
@@ -284,10 +277,7 @@
   "go.inlayHints.functionTypeParameters": true,
   "go.inlayHints.parameterNames": true,
   "go.inlayHints.rangeVariableTypes": true,
-  "go.lintFlags": [
-    "--path-mode=abs",
-    "--fast-only"
-  ],
+  "go.lintFlags": ["--path-mode=abs", "--fast-only"],
   "go.lintTool": "golangci-lint-v2",
   "go.toolsManagement.autoUpdate": true,
   "gopls": {
@@ -515,5 +505,7 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "go.diagnostic.vulncheck": "Off",
+  "debug.breakpointsView.presentation": "tree"
 }
