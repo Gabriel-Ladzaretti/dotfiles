@@ -63,6 +63,7 @@
     "unmarshalling",
     "webfetch"
   ],
+  "debug.breakpointsView.presentation": "tree",
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
   "debug.openDebug": "openOnDebugBreak",
@@ -270,6 +271,7 @@
   "go.alternateTools": {
     "customFormatter": "golangci-lint-v2"
   },
+  "go.diagnostic.vulncheck": "Off",
   "go.formatFlags": ["fmt", "--stdin"],
   "go.formatTool": "custom",
   "go.inlayHints.assignVariableTypes": false,
@@ -446,6 +448,7 @@
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " | ",
   "window.zoomLevel": 2,
+  "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
       "editorGutter.addedBackground": "#a6e3a1",
@@ -504,10 +507,7 @@
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true,
-  "workbench.activityBar.location": "top",
-  "workbench.sideBar.location": "right"
-  "go.diagnostic.vulncheck": "Off",
-  "debug.breakpointsView.presentation": "tree"
+  "workbench.tree.enableStickyScroll": true
 }
