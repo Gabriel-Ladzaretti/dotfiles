@@ -54,11 +54,13 @@
   },
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
+    "catppuccin",
     "golangci",
     "Ladzaretti",
     "nolint",
     "stdlib",
-    "unmarshalling"
+    "unmarshalling",
+    "webfetch"
   ],
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
@@ -454,7 +456,6 @@
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " | ",
   "window.zoomLevel": 2,
-  "workbench.activityBar.location": "top",
   "workbench.colorCustomizations": {
     "[Catppuccin Mocha]": {
       "editorGutter.addedBackground": "#a6e3a1",
@@ -513,7 +514,8 @@
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right"
 }
