@@ -144,5 +144,9 @@
     "command": "multiDiffEditor.goToPreviousChange",
     "key": "shift+f3",
     "when": "activeEditor == 'multiDiffEditor'"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "-editor.action.announceCursorPosition"
   }
 ]
