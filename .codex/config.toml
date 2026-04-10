@@ -20,3 +20,9 @@ model_reasoning_effort = "high"
 network_access = true
 approval_policy = "on-request"
 
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/vlt-cli"]
+trust_level = "trusted"
+
+[notice.model_migrations]
+"gpt-5.3-codex" = "gpt-5.4"
+
