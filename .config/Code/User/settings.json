@@ -1,6 +1,6 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[dockercompose]": {
     "editor.autoIndent": "advanced",
@@ -9,48 +9,48 @@
     "editor.quickSuggestions": {
       "comments": false,
       "other": true,
-      "strings": true
+      "strings": true,
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[go]": {
     "editor.semanticHighlighting.enabled": true,
-    "editor.tabSize": 8
+    "editor.tabSize": 8,
   },
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[markdown]": {
-    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one",
   },
   "[shellscript]": {
-    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.semanticHighlighting.enabled": true
+    "editor.semanticHighlighting.enabled": true,
   },
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "chat.agent.enabled": false,
   "chat.disableAIFeatures": true,
   "cSpell.enabledNotifications": {
     "Average Word Length too Long": false,
     "Lines too Long": false,
-    "Maximum Word Length Exceeded": false
+    "Maximum Word Length Exceeded": false,
   },
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
@@ -59,9 +59,10 @@
     "golangci",
     "Ladzaretti",
     "nolint",
+    "pipefail",
     "stdlib",
     "unmarshalling",
-    "webfetch"
+    "webfetch",
   ],
   "debug.breakpointsView.presentation": "tree",
   "debug.console.fontSize": 14,
@@ -96,10 +97,10 @@
         "type.defaultLibrary:go": "#f9e2af",
         "type.definition": "#f9e2af",
         "variable.defaultLibrary.readonly:go": "#eba0ac",
-        "variable.readonly": "#f5e0dc"
-      }
+        "variable.readonly": "#f5e0dc",
+      },
     },
-    "enabled": true
+    "enabled": true,
   },
   "editor.smoothScrolling": true,
   "editor.tokenColorCustomizations": {
@@ -112,19 +113,19 @@
             "meta.type.annotation.ts",
             "meta.parameters.ts",
             "meta.function.ts",
-            "source.ts"
+            "source.ts",
           ],
           "settings": {
-            "foreground": "#9399B2"
-          }
+            "foreground": "#9399B2",
+          },
         },
         {
           "scope": ["variable.language.this"],
           "settings": {
-            "foreground": "#f5c2e7"
-          }
-        }
-      ]
+            "foreground": "#f5c2e7",
+          },
+        },
+      ],
     },
     "textMateRules": [
       {
@@ -228,23 +229,23 @@
           "variable.name",
           "variable.other",
           "variable.other.readwrite",
-          "variable.parameter"
+          "variable.parameter",
         ],
         "settings": {
-          "fontStyle": ""
-        }
-      }
-    ]
+          "fontStyle": "",
+        },
+      },
+    ],
   },
   "explorer.autoReveal": true,
   "explorer.fileNesting.enabled": true,
   "explorer.fileNesting.patterns": {
-    "*.ts": "${capture}.spec.ts, ${capture}.test.ts"
+    "*.ts": "${capture}.spec.ts, ${capture}.test.ts",
   },
   "extensions.autoUpdate": false,
   "files.associations": {
     ".env.*": "properties",
-    "*.env": "properties"
+    "*.env": "properties",
   },
   "files.autoSave": "onFocusChange",
   "files.exclude": {
@@ -252,10 +253,10 @@
     "**/.git": true,
     "**/.hg": true,
     "**/.svn": true,
-    "**/Thumbs.db": true
+    "**/Thumbs.db": true,
   },
   "files.watcherExclude": {
-    "**/vendor/**": true
+    "**/vendor/**": true,
   },
   "git.allowForcePush": true,
   "git.blame.editorDecoration.enabled": false,
@@ -266,10 +267,10 @@
     "promptForTags": false,
     "tags": "json",
     "template": "",
-    "transform": "snakecase"
+    "transform": "snakecase",
   },
   "go.alternateTools": {
-    "customFormatter": "golangci-lint-v2"
+    "customFormatter": "golangci-lint-v2",
   },
   "go.diagnostic.vulncheck": "Off",
   "go.formatFlags": ["fmt", "--stdin"],
@@ -287,7 +288,7 @@
   "gopls": {
     "ui.navigation.symbolScope": "workspace",
     // "ui.navigation.symbolScope": "workspace"
-    "ui.semanticTokens": true
+    "ui.semanticTokens": true,
   },
   "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
   "javascript.inlayHints.parameterNames.enabled": "all",
@@ -302,14 +303,14 @@
   "remote.SSH.configFile": "/home/gbi/.ssh/config",
   "scm.diffDecorationsGutterPattern": {
     "added": false,
-    "modified": false
+    "modified": false,
   },
   "scm.diffDecorationsGutterWidth": 4,
   "search.exclude": {
     "**/*.code-search": true,
     "**/bower_components": true,
     "**/node_modules": true,
-    "**/vendor": true
+    "**/vendor": true,
   },
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
@@ -331,108 +332,108 @@
     {
       "backgroundColor": "#94e2d5",
       "color": "#11111b",
-      "text": "TODO:"
+      "text": "TODO:",
     },
     {
       "backgroundColor": "#74c7ec",
       "color": "#11111b",
-      "text": "TODO1:"
+      "text": "TODO1:",
     },
     {
       "backgroundColor": "#a6e3a1",
       "color": "#11111b",
-      "text": "TODO2:"
+      "text": "TODO2:",
     },
     {
       "backgroundColor": "#b4befe",
       "color": "#11111b",
-      "text": "TODO3:"
+      "text": "TODO3:",
     },
     {
       "backgroundColor": "#f38ba8",
       "color": "#11111b",
-      "text": "TODO4:"
+      "text": "TODO4:",
     },
     {
       "backgroundColor": "#cba6f7",
       "color": "#11111b",
-      "text": "TODO5:"
+      "text": "TODO5:",
     },
     {
       "backgroundColor": "#fab387",
       "color": "#11111b",
-      "text": "TODO6:"
+      "text": "TODO6:",
     },
     {
       "backgroundColor": "#f9e2af",
       "color": "#11111b",
-      "text": "TODO7:"
+      "text": "TODO7:",
     },
     {
       "backgroundColor": "#89b4fa",
       "color": "#11111b",
-      "text": "TODO8:"
+      "text": "TODO8:",
     },
     {
       "backgroundColor": "#89dceb",
       "color": "#11111b",
-      "text": "TODO9:"
+      "text": "TODO9:",
     },
     {
       "backgroundColor": "#f5e0dc",
       "color": "#11111b",
-      "text": "TODO10:"
+      "text": "TODO10:",
     },
     {
       "backgroundColor": "#f2cdcd",
       "color": "#11111b",
-      "text": "TODO11:"
+      "text": "TODO11:",
     },
     {
       "backgroundColor": "#bac2de",
       "color": "#11111b",
-      "text": "TODO12:"
+      "text": "TODO12:",
     },
     {
       "backgroundColor": "#eba0ac",
       "color": "#11111b",
-      "text": "FIXME:"
+      "text": "FIXME:",
     },
     {
       "backgroundColor": "#fab387",
       "color": "#11111b",
-      "text": "FIXME1:"
+      "text": "FIXME1:",
     },
     {
       "backgroundColor": "#f9e2af",
       "color": "#11111b",
-      "text": "FIXME2:"
+      "text": "FIXME2:",
     },
     {
       "backgroundColor": "#f5c2e7",
       "color": "#11111b",
-      "text": "FIXME3:"
+      "text": "FIXME3:",
     },
     {
       "backgroundColor": "#f38ba8",
       "color": "#11111b",
-      "text": "FIXME4:"
+      "text": "FIXME4:",
     },
     {
       "backgroundColor": "#cba6f7",
       "color": "#11111b",
-      "text": "FIXME5:"
+      "text": "FIXME5:",
     },
     {
       "backgroundColor": "#94e2d5",
       "color": "#11111b",
-      "text": "FIXME6:"
+      "text": "FIXME6:",
     },
     {
       "backgroundColor": "#a6e3a1",
       "color": "#11111b",
-      "text": "FIXME7:"
-    }
+      "text": "FIXME7:",
+    },
   ],
   "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
@@ -444,7 +445,7 @@
   "window.dialogStyle": "custom",
   "window.menuBarVisibility": "toggle",
   "window.newWindowProfile": "Linux",
-  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${profileName}",
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " | ",
   "window.zoomLevel": 2,
@@ -495,8 +496,8 @@
       "testing.iconQueued": "#f9e2af",
       "testing.message.error.badgeBackground": "#f5c2e7",
       "testing.message.error.badgeBorder": "#313244",
-      "testing.message.error.badgeForeground": "#11111b"
-    }
+      "testing.message.error.badgeForeground": "#11111b",
+    },
   },
   "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.editor.editorActionsLocation": "hidden",
@@ -509,5 +510,8 @@
   "workbench.secondarySideBar.defaultVisibility": "hidden",
   "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
-  "workbench.tree.enableStickyScroll": true
+  "workbench.tree.enableStickyScroll": true,
+  "vs-kubernetes": {
+    "vs-kubernetes.minikube-show-information-expiration": "2026-03-24T16:37:32.834Z",
+  },
 }
