@@ -24,6 +24,9 @@ approval_policy = "on-request"
 [tui]
 status_line = ["current-dir", "model-with-reasoning", "context-remaining", "weekly-limit", "five-hour-limit"]
 
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/vlt-cli"]
+trust_level = "trusted"
+
 [projects."/home/gbi/GitHub/mend/renovate-pro"]
 trust_level = "trusted"
 
@@ -40,6 +43,12 @@ trust_level = "trusted"
 trust_level = "trusted"
 
 [projects."/home/gbi/GitHub/mend/developer-platform"]
+trust_level = "trusted"
+
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/ubuntu-yt-dlp"]
+trust_level = "trusted"
+
+[projects."/home/gbi/Downloads/fireman-sam-songs"]
 trust_level = "trusted"
 
 [notice.model_migrations]
