@@ -63,6 +63,7 @@
     "stdlib",
     "unmarshalling",
     "webfetch",
+    "whitesource",
   ],
   "debug.breakpointsView.presentation": "tree",
   "debug.console.fontSize": 14,

@@ -33,6 +33,15 @@ trust_level = "trusted"
 [projects."/home/gbi/GitHub/mend/renovate-pro-helm"]
 trust_level = "trusted"
 
+[projects."/home/gbi/GitHub/mend/renovate-server"]
+trust_level = "trusted"
+
+[projects."/home/gbi/GitHub/mend/rre"]
+trust_level = "trusted"
+
+[projects."/home/gbi/GitHub/mend/developer-platform"]
+trust_level = "trusted"
+
 [notice.model_migrations]
 "gpt-5.3-codex" = "gpt-5.4"
 
