@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+CONFIG_FILE="${HOME}/.wallmode"
+
+load_config_value() {
+  local wanted_key="$1"
+  [[ -f "$CONFIG_FILE" ]] || return 0
+
+  while IFS='=' read -r key value || [[ -n "$key" ]]; do
+    case "$key" in
+    "" | \#*)
+      continue
+      ;;
+    "$wanted_key")
+      printf '%s' "$value"
+      return 0
+      ;;
+    esac
+  done <"$CONFIG_FILE"
+}
+
+resolve_uri() {
+  local mode="${1:-default}"
+  local path=""
+
+  case "$mode" in
+  game)
+    path="$(load_config_value "game")"
+    ;;
+  default)
+    path="$(load_config_value "default")"
+    ;;
+  *)
+    echo "usage: wallmode [game|default]"
+    exit 1
+    ;;
+  esac
+
+  if [[ -z "$path" ]]; then
+    echo "warning: set '${mode}=' in '${CONFIG_FILE}'" >&2
+    exit 1
+  fi
+
+  to_uri "$path"
+}
+
+to_uri() {
+  local value="$1"
+
+  if [[ "$value" == file://* ]]; then
+    printf '%s' "$value"
+  else
+    printf 'file://%s' "$value"
+  fi
+}
+
+apply_wallpaper() {
+  local uri="$1"
+
+  gsettings set org.gnome.desktop.background picture-uri "$uri"
+  gsettings set org.gnome.desktop.background picture-uri-dark "$uri"
+}
+
+main() {
+  local mode="${1:-default}"
+  local uri=""
+
+  uri="$(resolve_uri "$mode")"
+  apply_wallpaper "$uri"
+}
+
+main "$@"
