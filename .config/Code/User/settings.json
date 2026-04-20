@@ -65,7 +65,6 @@
     "webfetch",
     "whitesource",
   ],
-  "debug.breakpointsView.presentation": "tree",
   "debug.console.fontSize": 14,
   "debug.inlineValues": "off",
   "debug.openDebug": "openOnDebugBreak",
