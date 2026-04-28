@@ -1,5 +1,16 @@
 # .bashrc
 
+npm() {
+  case "$1" in
+    install|ci)
+      NODE_OPTIONS="--max-old-space-size=4096" command npm "$@"
+      ;;
+    *)
+      command npm "$@"
+      ;;
+  esac
+}
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
