@@ -51,11 +51,23 @@ trust_level = "trusted"
 [projects."/home/gbi/GitHub/Gabriel-Ladzaretti/renovate"]
 trust_level = "trusted"
 
-[notice]
-fast_default_opt_out = true
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/flatpak-steam-utils"]
+trust_level = "trusted"
+
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/home-lab-deploy"]
+trust_level = "trusted"
+
+[projects."/home/gbi/GitHub/Gabriel-Ladzaretti/qmk_firmware"]
+trust_level = "trusted"
+
+[projects."/home/gbi"]
+trust_level = "trusted"
 
 [notice.model_migrations]
 "gpt-5.3-codex" = "gpt-5.5"
+
+[notice]
+fast_default_opt_out = true
 
 [features]
 apps = false
