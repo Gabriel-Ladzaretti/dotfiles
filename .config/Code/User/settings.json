@@ -55,6 +55,7 @@
   "cSpell.useGitignore": false,
   "cSpell.userWords": [
     "catppuccin",
+    "CDPATH",
     "envconfig",
     "golangci",
     "Ladzaretti",
@@ -261,6 +262,7 @@
   "git.allowForcePush": true,
   "git.blame.editorDecoration.enabled": false,
   "git.blame.statusBarItem.enabled": true,
+  "git.detectWorktrees": true,
   "git.untrackedChanges": "separate",
   "go.addTags": {
     "options": "json=omitempty",
@@ -508,10 +510,10 @@
   "workbench.list.smoothScrolling": true,
   "workbench.navigationControl.enabled": false,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tree.enableStickyScroll": true,
   "vs-kubernetes": {
-    "vs-kubernetes.minikube-show-information-expiration": "2026-03-24T16:37:32.834Z",
+    "vs-kubernetes.minikube-show-information-expiration": "2026-12-05T07:19:52.555Z",
   },
+  "workbench.sideBar.location": "right",
 }
