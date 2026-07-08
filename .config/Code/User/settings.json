@@ -243,7 +243,7 @@
   "explorer.fileNesting.patterns": {
     "*.ts": "${capture}.spec.ts, ${capture}.test.ts",
   },
-  "extensions.autoUpdate": false,
+  "extensions.autoUpdate": "off",
   "files.associations": {
     ".env.*": "properties",
     "*.env": "properties",
@@ -327,8 +327,8 @@
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.shellIntegration.enabled": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
   "terminal.integrated.stickyScroll.enabled": false,
-  "terminal.integrated.tabs.enabled": false,
   "testing.gutterEnabled": true,
   "todohighlight.keywords": [
     {
@@ -516,4 +516,7 @@
     "vs-kubernetes.minikube-show-information-expiration": "2026-12-05T07:19:52.555Z",
   },
   "workbench.sideBar.location": "right",
+  "terminal.integrated.tabs.enabled": false,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.dragAndDrop": false,
 }
