@@ -5,6 +5,10 @@
 - Use guard clauses and early returns to reduce nesting.
 - Add tests for behavior changes and bug fixes.
 
+## Temporary Storage
+
+- `/tmp` is a RAM-backed tmpfs. Do not place large files or other high-volume data there, as exhausting it can consume system memory and freeze the system.
+
 ## Go Preferences (apply when editing `.go` files)
 
 - Write idiomatic Go, preferably following Google Go style guidance and common Go best practices.
