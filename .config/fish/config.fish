@@ -27,7 +27,7 @@ set fish_greeting
 set -g fish_color_autosuggestion '555' 'brblack'
 set -g fish_color_cancel -r
 set -g fish_color_command --bold
-set -g fish_color_comment '#F38BA8' # red
+set -g fish_color_comment F38BA8 # red
 set -g fish_color_cwd '#A6E3A1' # green
 set -g fish_color_cwd_root '#F38BA8' # red
 set -g fish_color_end '#F5C2E7' # brmagenta
