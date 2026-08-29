@@ -519,4 +519,5 @@
   "terminal.integrated.tabs.enabled": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.dragAndDrop": false,
+  "terminal.integrated.initialHint": false,
 }

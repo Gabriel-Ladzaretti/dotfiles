@@ -48,7 +48,8 @@ set -g fish_color_valid_path --underline
 
 # set default editor
 set -gx EDITOR vim
-
+set -gx VISUAL vim
+set -gx SUDO_EDITOR vim
 
 # set -g fish_color_error '#ff79a8' '--bold'
 # set -g fish_color_param cyan

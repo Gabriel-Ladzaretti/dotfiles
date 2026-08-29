@@ -8,6 +8,7 @@
 ## Temporary Storage
 
 - `/tmp` is a RAM-backed tmpfs. Do not place large files or other high-volume data there, as exhausting it can consume system memory and freeze the system.
+- Do not use `mktemp` or `mktemp -d` for caches, builds, test artifacts, or other potentially nontrivial data: they default to `/tmp`, which is RAM-backed here. Use a project-local directory or an appropriate persistent cache directory instead.
 
 ## Go Preferences (apply when editing `.go` files)
 
@@ -25,9 +26,16 @@
 
 - Prefer table-driven tests when they improve clarity and reduce duplication.
 - Use test helpers to keep test bodies focused and uncluttered.
+- Extract only genuinely reusable test helpers; keep single-purpose setup, parsing, polling, and assertions local to the test.
 - In tests, make helpers call `t.Helper()`.
 - Use `t.Fatal` when a failure means the test cannot continue safely.
 - Use `t.Error` when a failure should be reported but the test can continue.
+- Prefer in-process tests. Do not start external services or processes unless their behavior is what the test covers.
+- Use `t.Context()` for fixture lifetime. Let cleanup wait for asynchronous work before closing shared resources.
+- Express stable results as a complete expected value and compare it with `cmp.Diff(want, got)`, including for strings. Avoid field-by-field assertions when a full-struct comparison is clearer.
+- Ignore only inherently variable fields (for example, database-assigned timestamps) in `cmp.Diff`; assert important variable properties separately.
+- For parsing and decoding tests, include the complete expected decoded value in the test case and compare it directly to the result.
+- Name test helpers for their action and failure behavior: `newTest...` for fixtures, `require...` for fatal assertions, and `must...` for operations that abort the test on failure.
 
 ## TypeScript Preferences (apply when editing `.ts`, `.tsx`, `.cts`, `.mts` files)
 

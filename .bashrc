@@ -44,6 +44,7 @@ export MOZ_ENABLE_WAYLAND=1
 ## set default editor
 export VISUAL=vim
 export EDITOR="$VISUAL"
+export SUDO_EDITOR="$VISUAL"
 
 eval "$(starship init bash)"
 
