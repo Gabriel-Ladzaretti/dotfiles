@@ -1,6 +1,7 @@
 ## General Preferences
 
 - Keep changes focused, minimal, and easy to review.
+- Never run Git commands that rewrite, delete, or otherwise alter repository history. This includes `git commit`, `git amend`, `git rebase`, `git reset`, `git cherry-pick`, `git revert`, `git merge`, `git replace`, `git filter-repo`, `git push --force`, and `git push --force-with-lease`. Do not stage or push changes unless the user explicitly asks.
 - Prefer readability and maintainability over clever code.
 - Use guard clauses and early returns to reduce nesting.
 - Add tests for behavior changes and bug fixes.

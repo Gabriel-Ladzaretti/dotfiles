@@ -1,0 +1,12 @@
+# User-wide guardrail: Git mutations that stage, publish, or alter history are
+# never available to Codex through command execution.
+prefix_rule(pattern=["git", "add"], decision="forbidden", justification="Git staging is disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "commit"], decision="forbidden", justification="Git commits alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "push"], decision="forbidden", justification="Git pushes are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "rebase"], decision="forbidden", justification="Git rebases alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "reset"], decision="forbidden", justification="Git resets can alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "cherry-pick"], decision="forbidden", justification="Git cherry-picks alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "revert"], decision="forbidden", justification="Git reverts alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "merge"], decision="forbidden", justification="Git merges alter repository history and are disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "replace"], decision="forbidden", justification="Git replace alters repository history and is disabled by the user-wide policy.")
+prefix_rule(pattern=["git", "filter-repo"], decision="forbidden", justification="Git filter-repo rewrites repository history and is disabled by the user-wide policy.")

@@ -515,9 +515,19 @@
   "vs-kubernetes": {
     "vs-kubernetes.minikube-show-information-expiration": "2026-12-05T07:19:52.555Z",
   },
-  "workbench.sideBar.location": "right",
   "terminal.integrated.tabs.enabled": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.dragAndDrop": false,
   "terminal.integrated.initialHint": false,
+  "json.schemaDownload.trustedDomains": {
+    "https://developer.microsoft.com/json-schemas/": true,
+    "https://docs.renovatebot.com": true,
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://raw.githubusercontent.com/devcontainers/spec/": true,
+    "https://raw.githubusercontent.com/microsoft/vscode/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
+  "workbench.sideBar.location": "right",
 }
