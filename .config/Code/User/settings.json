@@ -37,6 +37,8 @@
   },
   "[shellscript]": {
     "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -527,7 +529,7 @@
     "https://raw.githubusercontent.com/devcontainers/spec/": true,
     "https://raw.githubusercontent.com/microsoft/vscode/": true,
     "https://schemastore.azurewebsites.net/": true,
-    "https://www.schemastore.org/": true
+    "https://www.schemastore.org/": true,
   },
   "workbench.sideBar.location": "right",
 }
