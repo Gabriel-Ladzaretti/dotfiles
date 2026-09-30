@@ -3,150 +3,154 @@
   {
     "command": "editor.action.copyLinesDownAction",
     "key": "alt+shift+down",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "command": "editor.action.copyLinesUpAction",
     "key": "alt+shift+up",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "command": "editor.action.formatDocument",
     "key": "shift+alt+f",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor",
   },
   {
     "command": "-editor.action.formatDocument",
     "key": "ctrl+shift+i",
-    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor",
   },
   {
     "command": "editor.action.formatDocument.none",
     "key": "shift+alt+f",
-    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly",
   },
   {
     "command": "-editor.action.formatDocument.none",
     "key": "ctrl+shift+i",
-    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly"
+    "when": "editorTextFocus && !editorHasDocumentFormattingProvider && !editorReadonly",
   },
   {
     "command": "editor.action.transformToUppercase",
-    "key": "shift+alt+u"
+    "key": "shift+alt+u",
   },
   {
     "command": "editor.action.transformToLowercase",
-    "key": "shift+alt+l"
+    "key": "shift+alt+l",
   },
   {
     "command": "workbench.action.debug.stepInto",
     "key": "f7",
-    "when": "debugState != 'inactive'"
+    "when": "debugState != 'inactive'",
   },
   {
     "command": "-workbench.action.debug.stepInto",
     "key": "f11",
-    "when": "debugState != 'inactive'"
+    "when": "debugState != 'inactive'",
   },
   {
     "command": "workbench.action.debug.continue",
     "key": "f9",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "-workbench.action.debug.continue",
     "key": "f5",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "workbench.action.debug.stepOut",
     "key": "shift+f7",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "-workbench.action.debug.stepOut",
     "key": "shift+f11",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "workbench.action.debug.stepOver",
     "key": "f8",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "-workbench.action.debug.stepOver",
     "key": "f10",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "workbench.action.moveEditorToNewWindow",
-    "key": "ctrl+k n"
+    "key": "ctrl+k n",
   },
   {
     "command": "workbench.action.terminal.toggleTerminal",
-    "key": "ctrl+[Backquote]"
+    "key": "ctrl+[Backquote]",
   },
   {
     "command": "workbench.action.terminal.focusFind",
     "key": "ctrl+shift+f",
-    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported",
   },
   {
     "command": "-workbench.action.terminal.focusFind",
     "key": "ctrl+f",
-    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported"
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocusInAny && terminalHasBeenCreated || terminalFocusInAny && terminalProcessSupported",
   },
   {
     "command": "workbench.action.terminal.resizePaneUp",
     "key": "alt+up",
-    "when": "terminalFocus"
+    "when": "terminalFocus",
   },
   {
     "command": "workbench.action.terminal.resizePaneDown",
     "key": "alt+down",
-    "when": "terminalFocus"
+    "when": "terminalFocus",
   },
   {
     "command": "workbench.action.debug.callStackTop",
     "key": "shift+0",
-    "when": "debugState == 'stopped'"
+    "when": "debugState == 'stopped'",
   },
   {
     "command": "explorer.newFile",
-    "key": "ctrl+n"
+    "key": "ctrl+n",
   },
   {
     "command": "explorer.newFolder",
-    "key": "ctrl+shift+n"
+    "key": "ctrl+shift+n",
   },
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+'"
+    "key": "ctrl+'",
   },
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+alt+z"
+    "key": "ctrl+alt+z",
   },
   {
     "command": "-workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+b"
+    "key": "ctrl+b",
   },
   {
     "command": "workbench.action.debug.selectandstart",
-    "key": "ctrl+shift+f5"
+    "key": "ctrl+shift+f5",
   },
   {
     "command": "multiDiffEditor.goToNextChange",
     "key": "f3",
-    "when": "activeEditor == 'multiDiffEditor'"
+    "when": "activeEditor == 'multiDiffEditor'",
   },
   {
     "command": "multiDiffEditor.goToPreviousChange",
     "key": "shift+f3",
-    "when": "activeEditor == 'multiDiffEditor'"
+    "when": "activeEditor == 'multiDiffEditor'",
   },
   {
     "key": "ctrl+shift+g",
-    "command": "-editor.action.announceCursorPosition"
-  }
+    "command": "-editor.action.announceCursorPosition",
+  },
+  {
+    "key": "ctrl+shift+alt+f",
+    "command": "prettier.forceFormatDocument",
+  },
 ]
