@@ -6,7 +6,6 @@ model_reasoning_effort = "high"
 plan_mode_reasoning_effort = "high"
 service_tier = "default"
 personality = "pragmatic"
-
 default_permissions = "workspace-only"
 
 [permissions.workspace-only]
@@ -26,6 +25,7 @@ inherit = "core"
 include_only = ["PATH", "HOME", "USER", "SHELL", "LANG", "LC_ALL", "TERM"]
 
 [tui]
+show_tooltips = false
 status_line = ["current-dir", "git-branch", "model-with-reasoning", "context-remaining", "weekly-limit", "five-hour-limit"]
 notifications = ["agent-turn-complete", "approval-requested"]
 notification_method = "bel"
