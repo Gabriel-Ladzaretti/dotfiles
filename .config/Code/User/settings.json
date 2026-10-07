@@ -536,4 +536,5 @@
   "workbench.tree.enableStickyScroll": true,
   "window.density.layout": "compact",
   "workbench.experimental.modernUI": false,
+  "explorer.fileNesting.expand": false,
 }
